@@ -1,0 +1,40 @@
+@mixin blockCenter{
+  margin: {
+    left: auto;
+    right: auto;
+  };
+}
+@mixin ceshi{
+  border: 1px solid black;
+}
+@mixin child($i){
+  &:nth-of-type(#{$i}){
+   @content;
+  }
+}
+@function rem($i){
+  @return $i/12+rem;
+}
+@mixin scale($num){
+  -webkit-transform: scale($num);
+  -moz-transform: scale($num);
+  -ms-transform: scale($num);
+  -o-transform: scale($num);
+  transform: scale($num);
+}
+
+$media-stack:
+        (group: tablet, id: general, rule: "only screen and (min-device-width: 700px)"),
+        (group: small, id: general, rule: "only screen and(min-device-width: 1100px)"),
+        (group: small, id: inbetween, rule: "only screen and(min-device-width: 1100px) and (max-device-width: 1400px)"),
+        (group: large, id: general, rule: "only screen and(min-device-width: 1400px)"),
+        (group: print, id: general, rule: "only print");
+
+@mixin media($group, $id: general){
+  @each $media in $media-stack{
+    @if($group == map-get($media, group) and $id == map-get($media, id)){
+      $rule: map-get($media, rule);
+      @media #{$rule} {@content}
+    }
+  }
+}
