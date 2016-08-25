@@ -54,3 +54,6 @@ a{
   width: rem(1190);
   @include blockCenter;
 }
+.clearfix{
+  @include clearfix;
+}

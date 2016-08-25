@@ -74,24 +74,106 @@
   }
 }
 .banner{
-  height: rem(590);
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
-  ul{
-    width: 500%;
-    height: 100%;
+  display: block;
+  position: relative;
+
+  .slides{
+    position: relative;
+    overflow: hidden;
+    height: rem(590);
+    @include media(xs){
+      height:remtablet(590);
+    }
     li{
       float: left;
       height: 100%;
-      width: 20%;
+      color: #FFFFFF;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
       @for $i from 1 through 5{
         @include child($i){
           background: {
-            color: rgba(33,38,42+$i*10,0.8);
+            image: url("../img/banner"+($i)+".jpg");
+            position: center;
+            repeat: no-repeat;
+            size: cover;
           };
         }
       }
+      .banner-text{
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0,0,0,.7);
+        h2{
+          font-size: rem(44);
+          letter-spacing: rem(5);
+          padding: {
+            top:rem(227);
+          };
+        }
+        p{
+          width: 60%;
+          @include blockCenter;
+          line-height: rem(18);
+          padding: {
+            top: rem(27);
+          };
+          color: rgba(255,255,255,0.6);
+          font-size: rem(20);
+        }
+        a{
+          display: block;
+          width:rem(171);
+          height: rem(45);
+          @include blockCenter;
+          background-color: #eabf59;
+          color: #000000;
+          letter-spacing: rem(4);
+          line-height:rem(45);
+          font-size: rem(20);
+          margin-top:rem(90);
+        }
+      }
+
     }
+
+  }
+  .flex-control-nav{
+    position: absolute;
+    bottom: rem(30);
+    left: 50%;
+    width: rem(144);
+    margin-left:rem(-144/2);
+    li{
+      float: left;
+      margin: 0 rem(10) 0 0;
+      &:nth-last-of-type(1){
+        margin-right:0;
+      }
+      a{
+        display: block;
+        width: rem(18);
+        height:rem(18);
+        line-height: 30px;
+        border-radius: 10px;
+        background: #fff;
+        overflow: hidden;
+        font-size: 0;
+        &.flex-active{
+          background-color: rgba(0,0,0,.7);
+        }
+      }
+    }
+  }
+  .flex-direction-nav{
+    display: none;
   }
 }
 footer{
@@ -103,7 +185,9 @@ footer{
   .brand-icon{
     width: 100%;
     height: rem(54);
-
+    @include media(xs ){
+      display: none;
+    }
     margin: {
       top: rem(20);
     };

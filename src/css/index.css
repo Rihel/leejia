@@ -53,6 +53,15 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
+.clearfix {
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both;
+    overflow: hidden; }
+
 .top {
   max-width: 100%;
   width: 100%;
@@ -109,26 +118,105 @@ a {
           border: none; }
 
 .banner {
-  height: 49.16667rem;
-  max-width: 100%;
-  overflow: hidden; }
-  .banner ul {
-    width: 500%;
-    height: 100%; }
-    .banner ul li {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative; }
+  .banner .slides {
+    position: relative;
+    overflow: hidden;
+    height: 49.16667rem; }
+    @media only screen and (min-width: 480px) {
+      .banner .slides {
+        height: 16.38889rem; } }
+    .banner .slides li {
       float: left;
       height: 100%;
-      width: 20%; }
-      .banner ul li:nth-of-type(1) {
-        background-color: rgba(33, 38, 52, 0.8); }
-      .banner ul li:nth-of-type(2) {
-        background-color: rgba(33, 38, 62, 0.8); }
-      .banner ul li:nth-of-type(3) {
-        background-color: rgba(33, 38, 72, 0.8); }
-      .banner ul li:nth-of-type(4) {
-        background-color: rgba(33, 38, 82, 0.8); }
-      .banner ul li:nth-of-type(5) {
-        background-color: rgba(33, 38, 92, 0.8); }
+      color: #FFFFFF;
+      text-align: center;
+      position: relative;
+      overflow: hidden; }
+      .banner .slides li:nth-of-type(1) {
+        background-image: url("../img/banner1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .banner .slides li:nth-of-type(2) {
+        background-image: url("../img/banner2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .banner .slides li:nth-of-type(3) {
+        background-image: url("../img/banner3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .banner .slides li:nth-of-type(4) {
+        background-image: url("../img/banner4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .banner .slides li:nth-of-type(5) {
+        background-image: url("../img/banner5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .banner .slides li .banner-text {
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7); }
+        .banner .slides li .banner-text h2 {
+          font-size: 3.66667rem;
+          letter-spacing: 0.41667rem;
+          padding-top: 18.91667rem; }
+        .banner .slides li .banner-text p {
+          width: 60%;
+          margin-left: auto;
+          margin-right: auto;
+          line-height: 1.5rem;
+          padding-top: 2.25rem;
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 1.66667rem; }
+        .banner .slides li .banner-text a {
+          display: block;
+          width: 14.25rem;
+          height: 3.75rem;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #eabf59;
+          color: #000000;
+          letter-spacing: 0.33333rem;
+          line-height: 3.75rem;
+          font-size: 1.66667rem;
+          margin-top: 7.5rem; }
+  .banner .flex-control-nav {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    width: 12rem;
+    margin-left: -6rem; }
+    .banner .flex-control-nav li {
+      float: left;
+      margin: 0 0.83333rem 0 0; }
+      .banner .flex-control-nav li:nth-last-of-type(1) {
+        margin-right: 0; }
+      .banner .flex-control-nav li a {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 30px;
+        border-radius: 10px;
+        background: #fff;
+        overflow: hidden;
+        font-size: 0; }
+        .banner .flex-control-nav li a.flex-active {
+          background-color: rgba(0, 0, 0, 0.7); }
+  .banner .flex-direction-nav {
+    display: none; }
 
 footer {
   max-width: 100%;
@@ -140,6 +228,9 @@ footer {
     width: 100%;
     height: 4.5rem;
     margin-top: 1.66667rem; }
+    @media only screen and (min-width: 480px) {
+      footer .brand-icon {
+        display: none; } }
     footer .brand-icon li {
       color: #FFFFFF;
       height: 100%;

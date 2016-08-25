@@ -1,3 +1,4 @@
+$legacy-support-for-ie:true;
 @mixin blockCenter{
   margin: {
     left: auto;
@@ -15,6 +16,9 @@
 @function rem($i){
   @return $i/12+rem;
 }
+@function remtablet($i){
+  @return ($i/12)/3+rem
+}
 @mixin scale($num){
   -webkit-transform: scale($num);
   -moz-transform: scale($num);
@@ -22,19 +26,34 @@
   -o-transform: scale($num);
   transform: scale($num);
 }
+@mixin clearfix {
+  @if $legacy-support-for-ie {
+    *zoom: 1;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+    overflow: hidden;
+  }
+}
+$breakpoints: (
+        'xs': 'only screen and ( min-width: 480px)',
+        'sm': 'only screen and ( min-width: 768px)',
+        'md': 'only screen and ( min-width: 992px)',
+        'lg': 'only screen and ( min-width: 1200px)',
+) !default;
+@mixin media($breakpoint) {
+  $query: map-get($breakpoints, $breakpoint);
 
-$media-stack:
-        (group: tablet, id: general, rule: "only screen and (min-device-width: 700px)"),
-        (group: small, id: general, rule: "only screen and(min-device-width: 1100px)"),
-        (group: small, id: inbetween, rule: "only screen and(min-device-width: 1100px) and (max-device-width: 1400px)"),
-        (group: large, id: general, rule: "only screen and(min-device-width: 1400px)"),
-        (group: print, id: general, rule: "only print");
+  @if not $query {
+    @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.';
+  }
 
-@mixin media($group, $id: general){
-  @each $media in $media-stack{
-    @if($group == map-get($media, group) and $id == map-get($media, id)){
-      $rule: map-get($media, rule);
-      @media #{$rule} {@content}
-    }
+  @media #{if(type-of($query) == 'string', unquote($query), inspect($query))} {
+    @content;
   }
 }
