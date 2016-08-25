@@ -84,7 +84,10 @@
     overflow: hidden;
     height: rem(590);
     @include media(xs){
-      height:remtablet(590);
+      height:xsrem(590);
+    }
+    @include media(sm){
+      height: smrem(590);
     }
     li{
       float: left;
@@ -117,6 +120,13 @@
           padding: {
             top:rem(227);
           };
+          @include media(xs){
+            font-size: xsrem(44);
+            letter-spacing: xsrem(5);
+            padding: {
+              top:xsrem(227);
+            };
+          }
         }
         p{
           width: 60%;
@@ -125,8 +135,16 @@
           padding: {
             top: rem(27);
           };
-          color: rgba(255,255,255,0.6);
+
           font-size: rem(20);
+          color: rgba(255,255,255,0.6);
+          @include media(xs){
+            font-size: xsrem(44);
+            letter-spacing: xsrem(5);
+            padding: {
+              top:xsrem(227);
+            };
+          }
         }
         a{
           display: block;

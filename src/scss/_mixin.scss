@@ -16,7 +16,10 @@ $legacy-support-for-ie:true;
 @function rem($i){
   @return $i/12+rem;
 }
-@function remtablet($i){
+@function xsrem($i){
+  @return ($i/12)/4+rem
+}
+@function smrem($i){
   @return ($i/12)/3+rem
 }
 @mixin scale($num){
@@ -41,10 +44,10 @@ $legacy-support-for-ie:true;
   }
 }
 $breakpoints: (
-        'xs': 'only screen and ( min-width: 480px)',
-        'sm': 'only screen and ( min-width: 768px)',
-        'md': 'only screen and ( min-width: 992px)',
-        'lg': 'only screen and ( min-width: 1200px)',
+        'xs': ' screen and ( max-width: 480px)',
+        'sm': ' screen and ( min-width: 768px)',
+        'md': ' screen and ( min-width: 992px)',
+        'lg': ' screen and ( min-width: 1200px)',
 ) !default;
 @mixin media($breakpoint) {
   $query: map-get($breakpoints, $breakpoint);

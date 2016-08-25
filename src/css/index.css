@@ -52,6 +52,9 @@ a {
   width: 99.16667rem;
   margin-left: auto;
   margin-right: auto; }
+  @media screen and (max-width: 480px) {
+    .wrap {
+      width: 24.79167rem; } }
 
 .clearfix {
   *zoom: 1; }
@@ -126,7 +129,10 @@ a {
     position: relative;
     overflow: hidden;
     height: 49.16667rem; }
-    @media only screen and (min-width: 480px) {
+    @media screen and (max-width: 480px) {
+      .banner .slides {
+        height: 12.29167rem; } }
+    @media screen and (min-width: 768px) {
       .banner .slides {
         height: 16.38889rem; } }
     .banner .slides li {
@@ -173,14 +179,24 @@ a {
           font-size: 3.66667rem;
           letter-spacing: 0.41667rem;
           padding-top: 18.91667rem; }
+          @media screen and (max-width: 480px) {
+            .banner .slides li .banner-text h2 {
+              font-size: 0.91667rem;
+              letter-spacing: 0.10417rem;
+              padding-top: 4.72917rem; } }
         .banner .slides li .banner-text p {
           width: 60%;
           margin-left: auto;
           margin-right: auto;
           line-height: 1.5rem;
           padding-top: 2.25rem;
-          color: rgba(255, 255, 255, 0.6);
-          font-size: 1.66667rem; }
+          font-size: 1.66667rem;
+          color: rgba(255, 255, 255, 0.6); }
+          @media screen and (max-width: 480px) {
+            .banner .slides li .banner-text p {
+              font-size: 0.91667rem;
+              letter-spacing: 0.10417rem;
+              padding-top: 4.72917rem; } }
         .banner .slides li .banner-text a {
           display: block;
           width: 14.25rem;
@@ -228,7 +244,7 @@ footer {
     width: 100%;
     height: 4.5rem;
     margin-top: 1.66667rem; }
-    @media only screen and (min-width: 480px) {
+    @media screen and (max-width: 480px) {
       footer .brand-icon {
         display: none; } }
     footer .brand-icon li {

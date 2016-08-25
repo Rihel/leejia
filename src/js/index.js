@@ -3,6 +3,6 @@ $(function(){
 		animation: "slide",
 		direction:"horizontal",
 		easing:"swing",
-		slideshowSpeed: 500
+		slideshowSpeed: 5500
 	})
 })

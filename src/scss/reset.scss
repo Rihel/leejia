@@ -53,6 +53,9 @@ a{
 .wrap{
   width: rem(1190);
   @include blockCenter;
+  @include media(xs){
+    width:xsrem(1190);
+  }
 }
 .clearfix{
   @include clearfix;
