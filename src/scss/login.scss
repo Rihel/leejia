@@ -1,0 +1,45 @@
+@import "mixin";
+.login-main{
+  max-width: 100%;
+  height: rem(664);
+  background-color: #c4aa91;
+  .wrap{
+    .login-box{
+      float: right;
+      width: rem(412);
+      height:rem(615);
+      background: {
+        repeat: no-repeat;
+        position: 0 0;
+        image: url("../img/login-bg.png");
+      };
+      position: relative;
+      .login-box-content{
+        position: absolute;
+        width: rem(351);
+        height:rem(381);
+        left: rem(34);
+        bottom: rem(50);
+        @include ceshi;
+        .login-boxcontrol{
+          width: 100%;
+          height: rem(38);
+          line-height:rem(38);
+          text-align: center;
+          span{
+            width: 50%;
+            height: 100%;
+            display: block;
+            float: left;
+            background-color: #e9e9e9;
+            color: #000;
+            &.active{
+              background-color: #caaa43;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

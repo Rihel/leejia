@@ -78,3 +78,13 @@ a:link, a:visited, a:active { text-decoration: none;color: #caaa43}
     #{$prefix}#{$property}: $value;
   }
 }
+@mixin img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@mixin boxShadow($num){
+  -webkit-box-shadow: $num;
+  -moz-box-shadow: $num;
+  box-shadow: $num;
+}
