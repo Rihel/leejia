@@ -49,13 +49,15 @@ table {
 }
 a{
   text-decoration: none;
+  @include transition(all 0.4s);
+  &:hover{
+    color: #caaa43;
+  }
 }
 .wrap{
-  width: rem(1190);
+  width: rem(1191);
   @include blockCenter;
-  @include media(xs){
-    width:xsrem(1190);
-  }
+
 }
 .clearfix{
   @include clearfix;
