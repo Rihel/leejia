@@ -359,45 +359,59 @@ a:link, a:visited, a:active {
     background-size: cover;
     height: 40.91667rem;
     width: 100%; }
-  .main .section-2 .wrap .section-head .section-2-tab span {
-    padding: 0 0.83333rem;
-    font-size: 1.66667rem; }
-  .main .section-2 .wrap .section-2-content {
-    padding-top: 2.5rem; }
-    .main .section-2 .wrap .section-2-content li {
-      height: 7.5rem;
-      padding: 2.66667rem;
-      -webkit-transition: all 0.4s;
-      -moz-transition: all 0.4s;
-      -ms-transition: all 0.4s;
-      -o-transition: all 0.4s;
-      transition: all 0.4s; }
-      .main .section-2 .wrap .section-2-content li div {
-        float: left;
-        height: 100%; }
-      .main .section-2 .wrap .section-2-content li .date {
-        width: 15rem;
-        text-align: center; }
-        .main .section-2 .wrap .section-2-content li .date .day {
-          display: block;
-          font-size: 4.16667rem; }
-      .main .section-2 .wrap .section-2-content li .section-2-img {
-        width: 12.5rem; }
-      .main .section-2 .wrap .section-2-content li .section-2-text {
-        width: 58.33333rem;
-        margin-left: 1.91667rem; }
-        .main .section-2 .wrap .section-2-content li .section-2-text h3 {
-          font-size: 2.5rem; }
-        .main .section-2 .wrap .section-2-content li .section-2-text p {
-          line-height: 1.66667rem;
-          padding-top: 0.83333rem; }
-      .main .section-2 .wrap .section-2-content li.active {
-        background-color: #f2f2f2; }
-  .main .section-2 .section-bottom {
-    text-align: center;
-    color: #6c6c6c;
-    height: 16.66667rem;
-    line-height: 16.66667rem; }
+  .main .section-2 {
+    height: 69.5rem;
+    position: relative; }
+    .main .section-2 .wrap {
+      position: relative; }
+      .main .section-2 .wrap .section-head .section-2-tab span {
+        padding: 0 0.83333rem;
+        font-size: 1.66667rem; }
+        .main .section-2 .wrap .section-head .section-2-tab span.active {
+          color: #caaa43; }
+      .main .section-2 .wrap .section-2-content {
+        position: absolute;
+        top: 8.33333rem;
+        left: 0;
+        padding-top: 2.5rem;
+        display: none; }
+        .main .section-2 .wrap .section-2-content li {
+          height: 7.5rem;
+          padding: 2.66667rem;
+          -webkit-transition: all 0.4s;
+          -moz-transition: all 0.4s;
+          -ms-transition: all 0.4s;
+          -o-transition: all 0.4s;
+          transition: all 0.4s; }
+          .main .section-2 .wrap .section-2-content li div {
+            float: left;
+            height: 100%; }
+          .main .section-2 .wrap .section-2-content li .date {
+            width: 15rem;
+            text-align: center; }
+            .main .section-2 .wrap .section-2-content li .date .day {
+              display: block;
+              font-size: 4.16667rem; }
+          .main .section-2 .wrap .section-2-content li .section-2-img {
+            width: 12.5rem; }
+          .main .section-2 .wrap .section-2-content li .section-2-text {
+            width: 58.33333rem;
+            margin-left: 1.91667rem; }
+            .main .section-2 .wrap .section-2-content li .section-2-text h3 {
+              font-size: 2.5rem; }
+            .main .section-2 .wrap .section-2-content li .section-2-text p {
+              line-height: 1.66667rem;
+              padding-top: 0.83333rem; }
+          .main .section-2 .wrap .section-2-content li.active {
+            background-color: #f2f2f2; }
+    .main .section-2 .section-bottom {
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      color: #6c6c6c;
+      height: 16.66667rem;
+      width: 100%;
+      line-height: 16.66667rem; }
   .main .section-3 {
     background-color: #2a3137;
     color: #FFFFFF;
@@ -457,7 +471,7 @@ a:link, a:visited, a:active {
       margin-top: 3.16667rem; }
       .main .section-4-content .brands li {
         float: left;
-        width: 20%;
+        width: 25%;
         height: 18rem;
         position: relative; }
         .main .section-4-content .brands li:nth-of-type(1) {
@@ -484,12 +498,6 @@ a:link, a:visited, a:active {
           background-color: #3d2e87; }
         .main .section-4-content .brands li:nth-of-type(12) {
           background-color: #3d2e91; }
-        .main .section-4-content .brands li:nth-of-type(13) {
-          background-color: #3d2e9b; }
-        .main .section-4-content .brands li:nth-of-type(14) {
-          background-color: #3d2ea5; }
-        .main .section-4-content .brands li:nth-of-type(15) {
-          background-color: #3d2eaf; }
         .main .section-4-content .brands li a {
           display: block;
           width: 100%;
