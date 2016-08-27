@@ -4,7 +4,7 @@
   height: rem(664);
   background-color: #c4aa91;
   .wrap{
-    .login-box{
+    .login{
       float: right;
       width: rem(412);
       height:rem(615);
@@ -20,7 +20,7 @@
         height:rem(381);
         left: rem(34);
         bottom: rem(50);
-        @include ceshi;
+
         .login-boxcontrol{
           width: 100%;
           height: rem(38);
@@ -36,6 +36,129 @@
             &.active{
               background-color: #caaa43;
               color: #ffffff;
+            }
+          }
+        }
+        .login-box{
+          width: rem(327);
+          height: rem(314);
+
+          @include blockCenter;
+          margin-top:rem(28);
+          position: relative;
+          .login-box-item{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            @include clearfix;
+            .login-title,.login-title2{
+              width: rem(327);
+              height: rem(47);
+              line-height:rem(47);
+              background-color: #f7f7f7;
+              text-align: center;
+              span{
+                display: inline-block;
+                float: left;
+                padding: rem(0) rem(20);
+                margin-left:rem(47);
+                &.active{
+                  border-bottom: rem(2) solid #caaa43;
+                  color: #caaa43;
+                }
+              }
+            }
+            .login-box-container{
+              width: rem(296);
+              position: relative;
+              .single,.single2{
+                display: none;
+                position: absolute;
+                left: 0;
+                top: 0;
+              }
+              .login-erweima{
+                width: 100%;
+                p{
+                  text-align: center;
+                  padding-top:rem(19);
+                  padding-bottom:rem(12);
+                }
+                img{
+                  @include square(rem(182));
+                  @include blockCenter;
+                }
+                span{
+                  width: rem(182);
+                  text-align: center;
+                  @include blockCenter;
+                  display: block;
+                  margin-top:rem(16);
+                  border: rem(1) solid #cfcfcf;
+                  background-color: #f2f2f2;
+                  padding: rem(5) 0;
+                  @include borderRadius(rem(10))
+                }
+              }
+              .login-number{
+                width: rem(296);
+                padding: {
+                  left: rem(23);
+                };
+                p{
+                  padding-top:rem(30);
+                  color: #a9a9a9;
+                }
+                .users{
+                  width: 100%;
+                  border: rem(1) solid #a3a3a3;
+                  height: rem(33);
+                  margin-top:rem(15);
+                  i{
+                    width: 10%;
+                    display: inline-block;
+                    float: left;
+                    line-height:rem(33);
+                    text-align: center;
+                    color: #bbbbbb;
+                  }
+                  input{
+                    width: 80%;
+                    border: none;
+                    float: left;
+                    @include lineheight(rem(30))
+                  }
+                }
+                .login-verify{
+                  margin-top:rem(15);
+                  width: 100%;
+                  height:rem(33);
+                  input{
+                    float: left;
+                    border: rem(1) solid #a3a3a3;
+                    width: rem(144);
+                    height:100%;
+                  }
+                  img{
+                    float: right;
+                    width: rem(144);
+                    height: rem(35);
+                    display: block;
+                  }
+                }
+                button{
+                  width: 100%;
+                  color: #FFFFFF;
+                  background-color: #caaa43;
+                  border: none;
+                  height:rem(45);
+                  font-weight: bold;
+                  margin-top:rem(22);
+                }
+              }
             }
           }
         }

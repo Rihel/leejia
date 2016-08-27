@@ -88,3 +88,42 @@ a:link, a:visited, a:active { text-decoration: none;color: #caaa43}
   -moz-box-shadow: $num;
   box-shadow: $num;
 }
+@mixin square($num){
+  width: $num;
+  height: $num;
+  display: block;
+}
+@mixin lineheight($num){
+  height:$num;
+  line-height:$num;
+}
+@mixin borderRadius($num){
+  -webkit-border-radius:$num;
+  -moz-border-radius:$num;
+  border-radius:$num;
+}
+@mixin active{
+  background-color: #caaa43;
+  color: #ffffff;
+}
+@mixin border($num){
+  border: rem(1) solid $num;
+}
+@mixin banner($url){
+  max-width: 100%;
+  height:rem(374);
+  background: {
+    image: url($url);
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  };
+}
+.btn{
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none;
+}
+@mixin btn{
+  @extend .btn;
+}

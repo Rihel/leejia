@@ -1,0 +1,183 @@
+a {
+  color: #333;
+  text-decoration: none;
+  outline: medium none;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease; }
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #caaa43; }
+
+.btn {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
+.register-main {
+  max-width: 100%;
+  background-image: url("../img/register-bg.png"); }
+  .register-main .wrap {
+    padding-top: 10.5rem;
+    padding-bottom: 13.5rem; }
+    .register-main .wrap .register {
+      width: 64.83333rem;
+      margin-left: auto;
+      margin-right: auto; }
+      .register-main .wrap .register .register-control {
+        width: 100%;
+        *zoom: 1;
+        border: 0.08333rem solid #d9dee1; }
+        .register-main .wrap .register .register-control:before, .register-main .wrap .register .register-control:after {
+          content: "";
+          display: table; }
+        .register-main .wrap .register .register-control:after {
+          clear: both;
+          overflow: hidden; }
+        .register-main .wrap .register .register-control span {
+          display: block;
+          width: 50%;
+          float: left;
+          font-size: 2.5rem;
+          text-align: center;
+          z-index: 333;
+          height: 5.58333rem;
+          line-height: 5.58333rem;
+          background-color: #f9f9f9; }
+          .register-main .wrap .register .register-control span.active {
+            background-color: #caaa43;
+            color: #ffffff;
+            position: relative; }
+            .register-main .wrap .register .register-control span.active:after {
+              z-index: 333;
+              content: "";
+              width: 0;
+              height: 0;
+              border-width: 1.66667rem;
+              position: absolute;
+              border-color: #caaa43 transparent transparent;
+              top: 5.58333rem;
+              left: 50%;
+              margin-left: -1.66667rem;
+              border-style: solid; }
+      .register-main .wrap .register .register-box {
+        width: 39.16667rem;
+        padding-top: 3.83333rem;
+        padding-left: 9rem;
+        padding-right: 16.91667rem;
+        height: 73.33333rem;
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 0.83333rem rgba(3, 3, 3, 0.5);
+        -moz-box-shadow: 0 0 0.83333rem rgba(3, 3, 3, 0.5);
+        box-shadow: 0 0 0.83333rem rgba(3, 3, 3, 0.5);
+        position: relative; }
+        .register-main .wrap .register .register-box .register-item {
+          display: none;
+          position: absolute;
+          top: 3.83333rem;
+          left: 9rem; }
+        .register-main .wrap .register .register-box label {
+          width: 10.83333rem;
+          font-size: 1.83333rem;
+          display: inline-block;
+          height: 100%;
+          float: left; }
+        .register-main .wrap .register .register-box .mesg {
+          width: 100%;
+          height: 3.16667rem;
+          line-height: 3.16667rem;
+          display: block;
+          *zoom: 1;
+          margin-top: 1rem; }
+          .register-main .wrap .register .register-box .mesg:before, .register-main .wrap .register .register-box .mesg:after {
+            content: "";
+            display: table; }
+          .register-main .wrap .register .register-box .mesg:after {
+            clear: both;
+            overflow: hidden; }
+          .register-main .wrap .register .register-box .mesg input {
+            float: left;
+            width: 29.16667rem;
+            height: 100%;
+            text-indent: 1.66667rem;
+            font-size: 1.83333rem;
+            border: 0.08333rem solid #cecece; }
+        .register-main .wrap .register .register-box .form-submit {
+          margin-left: 10.83333rem;
+          margin-top: 1rem; }
+          .register-main .wrap .register .register-box .form-submit input {
+            width: 14.16667rem;
+            height: 3.83333rem;
+            background-color: #caaa43;
+            color: #ffffff;
+            border: none; }
+        .register-main .wrap .register .register-box .form-verify input {
+          width: 16rem; }
+        .register-main .wrap .register .register-box .form-verify button {
+          height: 3.5rem;
+          width: 8.25rem;
+          background-color: #f8f8f8;
+          border: 0.08333rem solid #cecece;
+          margin-left: 1.66667rem; }
+        .register-main .wrap .register .register-box .register-one form {
+          width: 100%;
+          *zoom: 1; }
+          .register-main .wrap .register .register-box .register-one form:before, .register-main .wrap .register .register-box .register-one form:after {
+            content: "";
+            display: table; }
+          .register-main .wrap .register .register-box .register-one form:after {
+            clear: both;
+            overflow: hidden; }
+          .register-main .wrap .register .register-box .register-one form .form-deal {
+            margin-top: 1.66667rem;
+            height: 3.16667rem;
+            line-height: 3.16667rem;
+            color: #cecece; }
+            .register-main .wrap .register .register-box .register-one form .form-deal input {
+              float: left;
+              margin-left: 10.83333rem; }
+            .register-main .wrap .register .register-box .register-one form .form-deal p {
+              float: left;
+              margin-top: -0.66667rem; }
+        .register-main .wrap .register .register-box .register-firm .form-aptitude {
+          line-height: 3.16667rem;
+          *zoom: 1;
+          margin-top: 1.66667rem; }
+          .register-main .wrap .register .register-box .register-firm .form-aptitude:before, .register-main .wrap .register .register-box .register-firm .form-aptitude:after {
+            content: "";
+            display: table; }
+          .register-main .wrap .register .register-box .register-firm .form-aptitude:after {
+            clear: both;
+            overflow: hidden; }
+          .register-main .wrap .register .register-box .register-firm .form-aptitude .box {
+            padding: 1rem 4rem;
+            line-height: 20px;
+            position: relative;
+            cursor: pointer;
+            color: #888;
+            background: #fafafa;
+            border: 1px solid #ddd;
+            overflow: hidden;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            float: left; }
+            .register-main .wrap .register .register-box .register-firm .form-aptitude .box input {
+              position: absolute;
+              font-size: 100px;
+              right: 0;
+              top: 0;
+              opacity: 0;
+              filter: alpha(opacity=0);
+              cursor: pointer; }
+          .register-main .wrap .register .register-box .register-firm .form-aptitude p {
+            margin-left: 0.91667rem;
+            width: 8.33333rem;
+            height: 100%;
+            float: left;
+            color: #adadad; }
+        .register-main .wrap .register .register-box .register-firm .form-type {
+          margin-top: 1.66667rem; }
+
+/*# sourceMappingURL=register.css.map */

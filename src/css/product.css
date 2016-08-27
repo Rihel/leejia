@@ -10,6 +10,11 @@ a:link, a:visited, a:active {
   text-decoration: none;
   color: #caaa43; }
 
+.btn {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
 .product-banner {
   max-width: 100%;
   height: 31.16667rem;

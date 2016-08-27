@@ -1,0 +1,97 @@
+a {
+  color: #333;
+  text-decoration: none;
+  outline: medium none;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease; }
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #caaa43; }
+
+.btn, .need-main .wrap .need button {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
+.need-banner {
+  max-width: 100%;
+  height: 31.16667rem;
+  background-image: url("../img/need-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.need-main {
+  padding-top: 13.83333rem;
+  padding-bottom: 13.83333rem; }
+  .need-main .wrap .need {
+    width: 58.33333rem;
+    margin-left: auto;
+    margin-right: auto; }
+    .need-main .wrap .need .need-item {
+      margin-bottom: 1.66667rem; }
+      .need-main .wrap .need .need-item label {
+        font-size: 1.66667rem;
+        display: inline-block;
+        float: left; }
+        .need-main .wrap .need .need-item label:before {
+          content: '*';
+          color: red; }
+      .need-main .wrap .need .need-item select {
+        width: 18.66667rem;
+        height: 3.33333rem;
+        text-indent: 0.83333rem;
+        border: 0.08333rem solid #a8a8a8;
+        color: #a8a8a8; }
+      .need-main .wrap .need .need-item textarea {
+        width: 48.5rem;
+        height: 17.16667rem;
+        border: 0.08333rem solid #a8a8a8;
+        float: left; }
+    .need-main .wrap .need .fujian {
+      line-height: 3.16667rem;
+      *zoom: 1;
+      margin-top: 1.66667rem; }
+      .need-main .wrap .need .fujian:before, .need-main .wrap .need .fujian:after {
+        content: "";
+        display: table; }
+      .need-main .wrap .need .fujian:after {
+        clear: both;
+        overflow: hidden; }
+      .need-main .wrap .need .fujian .box {
+        padding: 1rem 4rem;
+        line-height: 20px;
+        position: relative;
+        cursor: pointer;
+        color: #888;
+        background: #fafafa;
+        border: 1px solid #ddd;
+        overflow: hidden;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        float: left;
+        margin-left: 1rem;
+        margin-top: 1rem; }
+        .need-main .wrap .need .fujian .box input {
+          position: absolute;
+          font-size: 100px;
+          right: 0;
+          top: 0;
+          opacity: 0;
+          filter: alpha(opacity=0);
+          cursor: pointer; }
+      .need-main .wrap .need .fujian p {
+        margin-left: 7.5rem;
+        width: 50rem;
+        height: 100%;
+        float: left;
+        color: #adadad; }
+    .need-main .wrap .need button {
+      width: 12.83333rem;
+      height: 3.83333rem;
+      margin-left: 7.5rem; }
+
+/*# sourceMappingURL=need.css.map */
