@@ -1,6 +1,8 @@
 function active(ele,child){
 	ele.find(child).hover(function(){
-		ele.find(child).removeClass('active')
+		ele.find(child).removeClass('active');
 		$(this).addClass('active');
+	},function(){
+		ele.find(child).removeClass('active');
 	});
 }

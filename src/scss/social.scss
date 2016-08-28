@@ -1,0 +1,129 @@
+@import "mixin";
+.social-banner{
+  @include banner('../img/social-banner.png')
+}
+.social-main{
+  .wrap{
+    width: rem(1171);
+    .social{
+      width: 100%;
+      .social-title{
+        text-align: center;
+        line-height:rem(40);
+        padding:rem(72) 0;
+        h2{
+          font-size: rem(30);
+        }
+        p{
+          font-size: rem(16);
+        }
+      }
+      .social-atr-box{
+        width: 100%;
+        @include clearfix;
+        li{
+          float: left;
+          width: rem(1171/4-2);
+          height: rem(430);
+          margin-right:rem(2);
+          @include transition(all 0.4s);
+          &:nth-last-of-type(1){
+            margin-right:0;
+          }
+          img{
+            @include img;
+          }
+          &.active{
+            @include scale(1.01);
+            @include boxShadow(0 0 rem(10) black)
+          }
+        }
+      }
+      .show-photo{
+        @include clearfix;
+        ul{
+          width: rem(385);
+          height:rem(409);
+          float: left;
+          position: relative;
+          margin-right:rem(7);
+          li{
+            overflow: hidden;
+            img{
+              @include img;
+            }
+            position: absolute;
+            @include transition(all 0.4s);
+            &.active{
+              @include boxShadow(0 0 rem(10) black)
+            }
+          }
+          .show1{
+            width: rem(145);
+            height: rem(146);
+          }
+          .show2{
+            width:rem(235);
+            height:rem(146);
+          }
+          .show3{
+            @include square(rem(258));
+          }
+          .show4{
+            width:rem(122);
+            height:rem(258);
+          }
+        }
+        .show-photo-1{
+          .show1{
+            @include pos(0,0);
+          }
+          .show2{
+            @include pos(0,150);
+          }
+          .show3{
+            @include pos(151,0);
+          }
+          .show4{
+            @include pos(151,263);
+          }
+        }
+        .show-photo-2{
+          .show3{
+            @include pos(0,0);
+          }
+          .show4{
+            @include pos(0,263);
+          }
+          .show1{
+            @include pos(263,0);
+          }
+          .show2{
+            @include pos(263,151)
+          }
+        }
+        .show-photo-3{
+          margin-right:0;
+          .show2{
+            @include pos(0,0);
+          }
+          .show1{
+            @include pos(0,240);
+          }
+          .show4{
+            @include pos(151,0);
+          }
+          .show3{
+            @include pos(151,128);
+          }
+        }
+      }
+      .social-bottom{
+        padding-bottom: rem(95);
+        img{
+          @include img;
+        }
+      }
+    }
+  }
+}
