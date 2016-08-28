@@ -5,7 +5,10 @@
 .news-main {
   .wrap {
     width: rem(1171);
+
     .news {
+      position: relative;
+      height: rem(1034+53+53+53+53);
       .news-control {
         padding: rem(53) 0;
         .btns{
@@ -24,6 +27,10 @@
       }
       .news-list{
         width: 100%;
+        position: absolute;
+        top: rem(53+53+38);
+        left: 0;
+        display: none;
         padding-bottom: rem(50);
         @include clearfix;
         li{

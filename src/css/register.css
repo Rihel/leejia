@@ -5,7 +5,7 @@
 
 .register-main {
   max-width: 100%;
-  background-image: url("../img/register-bg.png"); }
+  background-image: url("../img/register-bg.jpg"); }
   .register-main .wrap {
     padding-top: 10.5rem;
     padding-bottom: 13.5rem; }
@@ -108,26 +108,28 @@
           background-color: #f8f8f8;
           border: 0.08333rem solid #cecece;
           margin-left: 1.66667rem; }
-        .register-main .wrap .register .register-box .register-one form {
-          width: 100%;
-          *zoom: 1; }
-          .register-main .wrap .register .register-box .register-one form:before, .register-main .wrap .register .register-box .register-one form:after {
-            content: "";
-            display: table; }
-          .register-main .wrap .register .register-box .register-one form:after {
-            clear: both;
-            overflow: hidden; }
-          .register-main .wrap .register .register-box .register-one form .form-deal {
-            margin-top: 1.66667rem;
-            height: 3.16667rem;
-            line-height: 3.16667rem;
-            color: #cecece; }
-            .register-main .wrap .register .register-box .register-one form .form-deal input {
-              float: left;
-              margin-left: 10.83333rem; }
-            .register-main .wrap .register .register-box .register-one form .form-deal p {
-              float: left;
-              margin-top: -0.66667rem; }
+        .register-main .wrap .register .register-box .register-one {
+          height: 36.66667rem; }
+          .register-main .wrap .register .register-box .register-one form {
+            width: 100%;
+            *zoom: 1; }
+            .register-main .wrap .register .register-box .register-one form:before, .register-main .wrap .register .register-box .register-one form:after {
+              content: "";
+              display: table; }
+            .register-main .wrap .register .register-box .register-one form:after {
+              clear: both;
+              overflow: hidden; }
+            .register-main .wrap .register .register-box .register-one form .form-deal {
+              margin-top: 1.66667rem;
+              height: 3.16667rem;
+              line-height: 3.16667rem;
+              color: #cecece; }
+              .register-main .wrap .register .register-box .register-one form .form-deal input {
+                float: left;
+                margin-left: 10.83333rem; }
+              .register-main .wrap .register .register-box .register-one form .form-deal p {
+                float: left;
+                margin-top: -0.66667rem; }
         .register-main .wrap .register .register-box .register-firm .form-aptitude {
           line-height: 3.16667rem;
           *zoom: 1;

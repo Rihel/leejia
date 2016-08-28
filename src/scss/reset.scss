@@ -47,6 +47,7 @@ table {
   border-spacing: 0;
 }
 a{
+  color: #000;
   text-decoration: none;
   @include transition(all 0.4s);
   &:hover{

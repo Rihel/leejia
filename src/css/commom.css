@@ -54,6 +54,7 @@ table {
   border-spacing: 0; }
 
 a {
+  color: #000;
   text-decoration: none;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;

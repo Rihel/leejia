@@ -50,8 +50,8 @@
     <div class="wrap">
         <div class="register clearfix">
             <div class="register-control">
-                <span class="active">个人用户</span>
-                <span>企业用户</span>
+                <span class="active one">个人用户</span>
+                <span class="firm">企业用户</span>
             </div>
             <div class="register-box clearfix">
                 <div class="register-one register-item" style="display: block;" >
@@ -227,12 +227,29 @@
     </div>
 </footer>
 <script>
+    $('.register-box').css({
+        'paddingBottom':' 41.66667rem',
+        'height':0
+    })
     $(function(){
         $('.register-control').find('span').on('click',function(){
             $('.register-control').find('span').removeClass('active');
             $(this).addClass('active');
             $('.register-box').find('.register-item').fadeOut(300);
             $('.register-box').find('.register-item').eq($(this).index()).fadeIn(300);
+            console.log($('.register-one').css('display'));
+        });
+        $('.one').click(function(){
+            $('.register-box').css({
+                'paddingBottom':' 41.66667rem',
+                'height':0
+            })
+        })
+        $('.firm').click(function(){
+            $('.register-box').css({
+                'paddingBottom':'0',
+                'height':' 73.33333rem'
+            })
         })
     })
 </script>

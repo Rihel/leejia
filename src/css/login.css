@@ -6,7 +6,10 @@
 .login-main {
   max-width: 100%;
   height: 55.33333rem;
-  background-color: #c4aa91; }
+  background-color: #c4aa91;
+  background-image: url("../img/login-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
   .login-main .wrap .login {
     float: right;
     width: 34.33333rem;
