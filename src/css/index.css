@@ -7,7 +7,11 @@
   width: 100%;
   overflow: hidden;
   display: block;
-  position: relative; }
+  position: relative;
+  margin-top: 6rem; }
+  @media (min-width: 62em) and (max-width: 90em) {
+    .banner {
+      margin-top: 4.61538rem; } }
   .banner .slides {
     position: relative;
     overflow: hidden; }
@@ -54,13 +58,12 @@
         .banner .slides li .banner-text a {
           display: block;
           width: 14.25rem;
-          height: 3.75rem;
           margin-left: auto;
           margin-right: auto;
           background-color: #caaa43;
           color: #000000;
           letter-spacing: 0.33333rem;
-          line-height: 3.75rem;
+          padding: 0.83333rem 0;
           font-size: 1.66667rem;
           margin-top: 7.5rem;
           -webkit-transition: all 0.4s;
@@ -78,7 +81,7 @@
             .banner .slides li .banner-text a {
               letter-spacing: 0.25641rem;
               line-height: 2.88462rem;
-              font-size: 1.28205rem;
+              font-size: 1.60256rem;
               margin-top: 5.76923rem; } }
           .banner .slides li .banner-text a:hover {
             background-color: rgba(0, 0, 0, 0.5);
@@ -130,19 +133,19 @@
 .main {
   overflow: hidden; }
   .main .section-title {
-    height: 9.66667rem;
+    height: 5rem;
     border-bottom: 0.08333rem solid #d5d5d5; }
     .main .section-title h2 {
       text-align: center;
       font-size: 2rem;
-      line-height: 16.33333rem; }
+      line-height: 7.5rem; }
   .main .section-head {
     text-align: center;
     color: #757575;
     padding-top: 1.5rem;
     font-size: 1.16667rem; }
   .main .section-1 .wrap .section-1-content {
-    height: 33.33333rem;
+    height: 23.33333rem;
     width: 100%;
     margin-top: 5.83333rem; }
     .main .section-1 .wrap .section-1-content li {
@@ -166,7 +169,8 @@
       .main .section-1 .wrap .section-1-content li h2 {
         text-align: center;
         font-size: 1.66667rem;
-        margin: 1.66667rem 0; }
+        margin: 1.66667rem 0;
+        font-weight: bold; }
       .main .section-1 .wrap .section-1-content li p {
         text-align: center;
         max-width: 100%;
@@ -181,7 +185,7 @@
     height: 40.91667rem;
     width: 100%; }
   .main .section-2 {
-    height: 69.5rem;
+    height: 58.33333rem;
     position: relative; }
     .main .section-2 .wrap {
       position: relative; }
@@ -194,7 +198,6 @@
         position: absolute;
         top: 8.33333rem;
         left: 0;
-        padding-top: 2.5rem;
         display: none; }
         .main .section-2 .wrap .section-2-content li {
           height: 7.5rem;
@@ -230,9 +233,8 @@
       bottom: 0;
       text-align: center;
       color: #6c6c6c;
-      height: 16.66667rem;
       width: 100%;
-      line-height: 16.66667rem; }
+      padding-bottom: 1.66667rem; }
   .main .section-3 {
     background-color: #2a3137;
     color: #FFFFFF;
@@ -296,29 +298,53 @@
         height: 18rem;
         position: relative; }
         .main .section-4-content .brands li:nth-of-type(1) {
-          background-color: #3d2e23; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg1.jpg"); }
         .main .section-4-content .brands li:nth-of-type(2) {
-          background-color: #3d2e2d; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg2.jpg"); }
         .main .section-4-content .brands li:nth-of-type(3) {
-          background-color: #3d2e37; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg3.jpg"); }
         .main .section-4-content .brands li:nth-of-type(4) {
-          background-color: #3d2e41; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg4.jpg"); }
         .main .section-4-content .brands li:nth-of-type(5) {
-          background-color: #3d2e4b; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg5.jpg"); }
         .main .section-4-content .brands li:nth-of-type(6) {
-          background-color: #3d2e55; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg6.jpg"); }
         .main .section-4-content .brands li:nth-of-type(7) {
-          background-color: #3d2e5f; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg7.jpg"); }
         .main .section-4-content .brands li:nth-of-type(8) {
-          background-color: #3d2e69; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg8.jpg"); }
         .main .section-4-content .brands li:nth-of-type(9) {
-          background-color: #3d2e73; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg9.jpg"); }
         .main .section-4-content .brands li:nth-of-type(10) {
-          background-color: #3d2e7d; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg10.jpg"); }
         .main .section-4-content .brands li:nth-of-type(11) {
-          background-color: #3d2e87; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg11.jpg"); }
         .main .section-4-content .brands li:nth-of-type(12) {
-          background-color: #3d2e91; }
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/logo-bg12.jpg"); }
         .main .section-4-content .brands li a {
           display: block;
           width: 100%;

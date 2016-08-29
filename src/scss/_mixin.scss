@@ -111,12 +111,16 @@ $legacy-support-for-ie:true;
 @mixin banner($url){
   max-width: 100%;
   height:rem(374);
+  margin-top:rem(72);
   background: {
     image: url($url);
     repeat: no-repeat;
     position: center;
     size: cover;
   };
+  @include media(lg){
+    margin-top:lgrem(72);
+  }
 }
 .btn{
   background-color: #caaa43;
