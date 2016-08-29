@@ -5,7 +5,10 @@
   overflow: hidden;
   display: block;
   position: relative;
-
+  margin-top:rem(72);
+  @include media(lg){
+    margin-top:lgrem(72);
+  }
   .slides{
     position: relative;
     overflow: hidden;
@@ -80,12 +83,13 @@
         a{
           display: block;
           width:rem(171);
-          height: rem(45);
+
           @include blockCenter;
           background-color: #caaa43;
           color:#000000;
           letter-spacing: rem(4);
-          line-height:rem(45);
+          padding: rem(10) 0;
+
           font-size: rem(20);
           margin-top:rem(90);
           @include media(xs){
@@ -97,7 +101,7 @@
           @include media(lg){
             letter-spacing: lgrem(4);
             line-height:lgrem(45);
-            font-size: lgrem(20);
+            font-size: lgrem(25);
             margin-top:lgrem(90);
           }
           @include transition(all 0.4s);
@@ -164,12 +168,12 @@
 .main{
   overflow: hidden;
   .section-title{
-    height: rem(116);
+    height: rem(60);
     border-bottom:rem(1) solid #d5d5d5;
     h2{
       text-align: center;
       font-size: rem(24);
-      line-height: rem(196);
+      line-height: rem(90);
 
     }
   }
@@ -183,7 +187,7 @@
     //height:rem(625);
     .wrap{
       .section-1-content{
-        height:rem(400);
+        height:rem(280);
         width: 100%;
         margin-top:rem(70);
         li{
@@ -219,6 +223,7 @@
               text-align: center;
               font-size: rem(20);
               margin:rem(20) 0;
+              font-weight: bold;
             }
             p{
               text-align: center;
@@ -242,7 +247,7 @@
     }
     }
   .section-2{
-    height: rem(834);
+    height: rem(700);
     position: relative;
     .wrap{
       position: relative;
@@ -262,7 +267,7 @@
         position: absolute;
         top: rem(100);
         left: 0;
-        padding-top: rem(30);
+
         display: none;
         li{
           height: rem(90);
@@ -305,9 +310,9 @@
       bottom: 0;
       text-align: center;
       color: #6c6c6c;
-      height: rem(200);
+
       width: 100%;
-      line-height: rem(200);
+      padding-bottom: rem(20);
     }
   }
   .section-3{
@@ -389,7 +394,11 @@
         position: relative;
         @for $i from 1 through 12{
           &:nth-of-type(#{$i}){
-            background-color: rgba(61,46,25+$i*10,1);
+            background: {
+              repeat: no-repeat;
+              size: cover;
+              image:url("../img/logo-bg"+($i)+".jpg");
+            };
           }
         }
         a{

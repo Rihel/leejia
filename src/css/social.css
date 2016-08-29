@@ -6,10 +6,14 @@
 .social-banner {
   max-width: 100%;
   height: 31.16667rem;
+  margin-top: 6rem;
   background-image: url("../img/social-banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  @media (min-width: 62em) and (max-width: 90em) {
+    .social-banner {
+      margin-top: 4.61538rem; } }
 
 .social-main .wrap {
   width: 97.58333rem; }
@@ -18,7 +22,7 @@
     .social-main .wrap .social .social-title {
       text-align: center;
       line-height: 3.33333rem;
-      padding: 6rem 0; }
+      padding: 2.5rem 0; }
       .social-main .wrap .social .social-title h2 {
         font-size: 2.5rem; }
       .social-main .wrap .social .social-title p {

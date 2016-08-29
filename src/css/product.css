@@ -6,10 +6,14 @@
 .product-banner {
   max-width: 100%;
   height: 31.16667rem;
+  margin-top: 6rem;
   background-image: url("../img/product-banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  @media (min-width: 62em) and (max-width: 90em) {
+    .product-banner {
+      margin-top: 4.61538rem; } }
 
 .product-main {
   padding-top: 6.08333rem;
