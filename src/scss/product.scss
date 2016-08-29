@@ -1,0 +1,89 @@
+@import "mixin";
+
+.product-banner{
+ @include banner("../img/product-banner.png");
+}
+.product-main{
+  padding-top:rem(73);
+  max-width: 100%;
+  .wrap{
+    width: rem(1194);
+    .product-list{
+      width: 100%;
+      li{
+        background-color: #f7f7f7;
+        width: rem(271);
+        float: left;
+        margin-right:rem(5);
+        margin-bottom:rem(28);
+        &:nth-last-of-type(1){
+          margin-right: 0;
+        }
+        padding:{
+          top: rem(8);
+          left: rem(12);
+          right: rem(10);
+          bottom: rem(18);
+        };
+        .product-list-box{
+          background-color: #fff;
+          width: 100%;
+          height: rem(311);
+          @include transition(all 0.4s);
+          .product-img{
+            width: 100%;
+            overflow: hidden;
+            height: rem(248);
+            img{
+              @include img;
+            }
+          }
+          .product-detail{
+            max-width: 100%;
+            position: relative;
+            padding: {
+              top: rem(18);
+              left: rem(15);
+            };
+            a{
+              display: block;
+              width: rem(49);
+              height: rem(33);
+              line-height:rem(33);
+              color: #FFFFFF;
+              text-align: center;
+              background-color: #caaa43;
+              position: absolute;
+              right: rem(17);
+              top:rem(15);
+              @include transition(all 0.4s);
+              &:hover{
+                background-color: rgba(0,0,0,.5);
+                color: #caaa43;
+                letter-spacing: rem(5);
+              }
+            }
+            h4{
+              font-weight:bold;
+              letter-spacing: rem(3);
+            }
+            p{
+              padding-top: rem(7);
+              color: #aaaaaa;
+              span{
+                color: #a52321;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+        &.active{
+          .product-list-box{
+            @include boxShadow(0 0 rem(10) rgba(0,0,0,.5));
+          }
+        }
+      }
+    }
+
+  }
+}

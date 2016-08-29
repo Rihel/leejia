@@ -14,7 +14,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 0;
   font: inherit;
   vertical-align: baseline;
 }
@@ -26,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: 'Microsoft YaHei UI';
-  overflow-x: hidden;
+  //overflow-x: hidden;
 }
 html{
 
@@ -48,11 +47,15 @@ table {
   border-spacing: 0;
 }
 a{
+  color: #000;
   text-decoration: none;
   @include transition(all 0.4s);
   &:hover{
     color: #caaa43;
   }
+}
+input:focus{
+  @include border(#caaa43);
 }
 .wrap{
   width: rem(1191);

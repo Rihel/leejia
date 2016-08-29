@@ -1,0 +1,44 @@
+@import "mixin";
+.firmdetail-banner{
+  @include banner('../img/firm-banner.png')
+}
+.firmdetail-main{
+  .wrap{
+    width: rem(1171);
+    padding-top:rem(38);
+    .firmdetail-title{
+      @include lineheight(rem(56));
+      border-bottom: rem(1) solid #d2d2d2;
+      h2{
+        float: left;
+        font-size: rem(30);
+        padding-left: rem(17);
+      }
+      .bread-crumbs{
+        float: right;
+        a{
+          color: #000;
+        }
+      }
+    }
+    .firmdetail-section{
+      padding-top: rem(26);
+      section{
+        width:rem(621);
+        padding-left:rem(7);
+        float: left;
+        p{
+          line-height: rem(20);
+          padding-bottom:rem(45);
+          font-size: rem(16);
+        }
+      }
+      article{
+        float: right;
+      }
+    }
+    .firmdetail-bottom{
+      padding-bottom:rem(213);
+    }
+  }
+}

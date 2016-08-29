@@ -1,0 +1,59 @@
+.btn, .firm-main .wrap .firm .firm-screen tr td.active {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
+.firm-banner {
+  max-width: 100%;
+  height: 31.16667rem;
+  background-image: url("../img/firm-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.firm-main .wrap {
+  width: 97.58333rem; }
+  .firm-main .wrap .firm {
+    padding-top: 3.33333rem; }
+    .firm-main .wrap .firm .firm-screen {
+      border: 1px #e5e5e5 solid; }
+      .firm-main .wrap .firm .firm-screen tr td {
+        width: 8.08333rem;
+        height: 3.16667rem;
+        line-height: 3.16667rem;
+        text-align: center;
+        font-size: 1.33333rem;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s; }
+        .firm-main .wrap .firm .firm-screen tr td .up {
+          font-size: 2.5rem; }
+        .firm-main .wrap .firm .firm-screen tr td.active {
+          letter-spacing: 0.41667rem; }
+    .firm-main .wrap .firm .firm-list {
+      width: 100%;
+      padding-top: 8.33333rem;
+      *zoom: 1; }
+      .firm-main .wrap .firm .firm-list:before, .firm-main .wrap .firm .firm-list:after {
+        content: "";
+        display: table; }
+      .firm-main .wrap .firm .firm-list:after {
+        clear: both;
+        overflow: hidden; }
+      .firm-main .wrap .firm .firm-list li {
+        background-color: #f6f6f6;
+        width: 31.66667rem;
+        float: left;
+        margin-right: 1.25rem;
+        margin-bottom: 1.25rem; }
+        .firm-main .wrap .firm .firm-list li:nth-of-type(3n) {
+          margin-right: 0; }
+        .firm-main .wrap .firm .firm-list li h4 {
+          height: 6rem;
+          line-height: 6rem;
+          color: #000;
+          text-align: center; }
+
+/*# sourceMappingURL=firm.css.map */

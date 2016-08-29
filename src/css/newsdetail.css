@@ -1,0 +1,123 @@
+.btn, .newsdetail-main .wrap .newsdetail-control .btns span.active {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
+.newsdetail-banner {
+  max-width: 100%;
+  height: 31.16667rem;
+  background-image: url("../img/news-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.newsdetail-main {
+  padding-bottom: 3.33333rem; }
+  .newsdetail-main .wrap {
+    width: 97.58333rem; }
+    .newsdetail-main .wrap .newsdetail-control {
+      padding: 4.41667rem 0; }
+      .newsdetail-main .wrap .newsdetail-control .btns {
+        margin-left: auto;
+        margin-right: auto;
+        width: 27.5rem; }
+        .newsdetail-main .wrap .newsdetail-control .btns span {
+          display: block;
+          float: left;
+          padding: 1.16667rem 1.83333rem;
+          margin-right: 0.83333rem; }
+    .newsdetail-main .wrap .newsdetail section {
+      width: 69.16667rem;
+      float: left; }
+      .newsdetail-main .wrap .newsdetail section h1 {
+        font-size: 3.16667rem;
+        padding: 4.66667rem 0; }
+      .newsdetail-main .wrap .newsdetail section .news-state {
+        color: #a69e9c; }
+        .newsdetail-main .wrap .newsdetail section .news-state .huliangwang, .newsdetail-main .wrap .newsdetail section .news-state .shijian, .newsdetail-main .wrap .newsdetail section .news-state .new-share {
+          float: left;
+          display: block;
+          padding-right: 2rem;
+          font-size: 1.33333rem; }
+      .newsdetail-main .wrap .newsdetail section .new-share i {
+        display: block;
+        float: left;
+        margin-right: 1.66667rem; }
+      .newsdetail-main .wrap .newsdetail section .new-share span {
+        display: block;
+        float: left;
+        background-image: url("../img/share-icon.png");
+        background-position-y: center;
+        background-repeat: no-repeat;
+        height: 3.25rem;
+        width: 3.08333rem;
+        margin-top: -1.25rem; }
+      .newsdetail-main .wrap .newsdetail section .new-share .weibo {
+        background-position-x: 0; }
+      .newsdetail-main .wrap .newsdetail section .new-share .weixin {
+        background-position-x: -3.25rem; }
+      .newsdetail-main .wrap .newsdetail section .new-share .start {
+        background-position-x: -6.5rem; }
+      .newsdetail-main .wrap .newsdetail section .section-contont {
+        width: 100%;
+        border-color: #e5e5e5;
+        border-style: solid;
+        border-width: 0.08333rem;
+        border-right: none;
+        border-left: none;
+        padding: 4.16667rem 0;
+        margin-bottom: 3.75rem; }
+        .newsdetail-main .wrap .newsdetail section .section-contont p {
+          font-size: 1.33333rem;
+          line-height: 2.5rem;
+          text-indent: 2em;
+          padding: 2.5rem 0; }
+        .newsdetail-main .wrap .newsdetail section .section-contont img {
+          width: 40.75rem;
+          height: 23.5rem;
+          margin-left: 14.20833rem; }
+      .newsdetail-main .wrap .newsdetail section .next-news {
+        margin-bottom: 4.16667rem; }
+        .newsdetail-main .wrap .newsdetail section .next-news i {
+          color: #73ae36; }
+        .newsdetail-main .wrap .newsdetail section .next-news a {
+          padding-left: 1.66667rem; }
+    .newsdetail-main .wrap article {
+      width: 25.66667rem;
+      float: right;
+      padding-top: 2rem; }
+      .newsdetail-main .wrap article .tagbox {
+        background-color: #fafafa;
+        width: 100%;
+        padding-top: 2.75rem;
+        padding-bottom: 3.83333rem;
+        margin-bottom: 1.41667rem; }
+        .newsdetail-main .wrap article .tagbox h3 {
+          width: 100%;
+          height: 2.75rem;
+          line-height: 2.75rem;
+          border-left: 0.16667rem solid #c69f50;
+          font-size: 1.66667rem;
+          text-indent: 2.08333rem; }
+        .newsdetail-main .wrap article .tagbox ul {
+          padding-left: 2.25rem; }
+          .newsdetail-main .wrap article .tagbox ul li {
+            padding: 0.83333rem 1.16667rem;
+            border: 0.08333rem solid #74b13c;
+            display: inline-block;
+            margin-right: 1.33333rem;
+            margin-bottom: 1.33333rem;
+            margin-top: 1.33333rem; }
+      .newsdetail-main .wrap article .hotread ul li {
+        border: none;
+        margin-bottom: 0;
+        margin-top: 0; }
+      .newsdetail-main .wrap article .hotbox-img {
+        width: 100%;
+        height: 17.58333rem; }
+        .newsdetail-main .wrap article .hotbox-img img {
+          width: 100%;
+          height: auto;
+          display: block; }
+
+/*# sourceMappingURL=newsdetail.css.map */

@@ -1,0 +1,20 @@
+$(function(){
+	$('.login-boxcontrol').find('span').on('click',function(){
+		$('.login-boxcontrol').find('span').removeClass('active');
+		$('.login-box').find('.login-box-item').fadeOut();
+		$(this).addClass('active');
+		$('.login-box').find('.login-box-item').eq($(this).index()).fadeIn();
+	});
+	$('.login-title').find('span').on('click',function(){
+		$('.login-title').find('span').removeClass('active');
+		$(this).addClass('active');
+		$('.login-box-container').find('.single').fadeOut();
+		$('.login-box-container').find('.single').eq($(this).index()).fadeIn();
+	})
+	$('.login-title2').find('span').on('click',function(){
+		$('.login-title2').find('span').removeClass('active');
+		$(this).addClass('active');
+		$('.login-box-container').find('.single2').fadeOut();
+		$('.login-box-container').find('.single2').eq($(this).index()).fadeIn();
+	})
+})

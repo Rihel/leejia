@@ -13,8 +13,7 @@ $legacy-support-for-ie:true;
    @content;
   }
 }
-a { color: #333; text-decoration: none; outline: medium none; -webkit-transition-property:color; -webkit-transition-duration: 0.3s; -webkit-transition-timing-function: ease;}
-a:link, a:visited, a:active { text-decoration: none;color: #caaa43}
+
 @function rem($i){
   @return $i/12+rem;
 }
@@ -77,4 +76,61 @@ a:link, a:visited, a:active { text-decoration: none;color: #caaa43}
   @each $prefix in -webkit-, -moz-, -ms-, -o-, '' {
     #{$prefix}#{$property}: $value;
   }
+}
+@mixin img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@mixin boxShadow($num){
+  -webkit-box-shadow: $num;
+  -moz-box-shadow: $num;
+  box-shadow: $num;
+}
+@mixin square($num){
+  width: $num;
+  height: $num;
+  display: block;
+}
+@mixin lineheight($num){
+  height:$num;
+  line-height:$num;
+}
+@mixin borderRadius($num){
+  -webkit-border-radius:$num;
+  -moz-border-radius:$num;
+  border-radius:$num;
+}
+@mixin active{
+  background-color: #caaa43;
+  color: #ffffff;
+}
+@mixin border($num){
+  border: rem(1) solid $num;
+}
+@mixin banner($url){
+  max-width: 100%;
+  height:rem(374);
+  background: {
+    image: url($url);
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  };
+}
+.btn{
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none;
+}
+@mixin btn{
+  @extend .btn;
+}
+@mixin pos($top,$left){
+  top:rem($top);
+  left:rem($left);
+}
+@mixin ball($radius){
+  @include square($radius);
+  @include borderRadius($radius);
 }

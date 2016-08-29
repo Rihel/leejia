@@ -1,0 +1,53 @@
+@import "mixin";
+.firm-banner{
+  @include banner('../img/firm-banner.png');
+}
+.firm-main{
+
+  .wrap{
+    width: rem(1171);
+    .firm{
+      padding-top:rem(40);
+      .firm-screen{
+        border:1px #e5e5e5 solid;
+       tr{
+         td{
+           width: rem(97);
+           @include lineheight(rem(38));
+           text-align: center;
+           font-size: rem(16);
+           .up{
+             font-size: rem(30);
+           }
+           @include transition(all 0.4s);
+           &.active{
+             @include btn;
+             letter-spacing: rem(5);
+           }
+         }
+
+       }
+      }
+      .firm-list{
+        width: 100%;
+        padding-top:rem(100);
+        @include clearfix;
+        li{
+          background-color: #f6f6f6;
+          width: rem(380);
+          float: left;
+          margin-right:rem(15);
+          margin-bottom: rem(15);
+          &:nth-of-type(3n){
+            margin-right:0;
+          }
+          h4{
+           @include lineheight(rem(72));
+            color: #000;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

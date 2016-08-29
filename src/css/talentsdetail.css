@@ -1,0 +1,120 @@
+.btn, .talentsdetail-main .wrap button {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
+.talentsdetail-banner {
+  max-width: 100%;
+  height: 31.16667rem;
+  background-image: url("../img/talents-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.talentsdetail-main {
+  width: 100%;
+  padding-top: 2.16667rem; }
+  .talentsdetail-main .wrap {
+    padding-bottom: 4.5rem; }
+    .talentsdetail-main .wrap .talentsdetail {
+      width: 100%;
+      padding-bottom: 2.5rem; }
+      .talentsdetail-main .wrap .talentsdetail .talentsdetail-title {
+        height: 3.83333rem;
+        line-height: 3.83333rem; }
+        .talentsdetail-main .wrap .talentsdetail .talentsdetail-title .talents-name {
+          font-weight: bold;
+          font-size: 2.5rem;
+          float: left; }
+        .talentsdetail-main .wrap .talentsdetail .talentsdetail-title .jianli {
+          float: right; }
+          .talentsdetail-main .wrap .talentsdetail .talentsdetail-title .jianli p {
+            float: left;
+            padding-left: 2.5rem; }
+            .talentsdetail-main .wrap .talentsdetail .talentsdetail-title .jianli p i {
+              font-weight: bold; }
+            .talentsdetail-main .wrap .talentsdetail .talentsdetail-title .jianli p span {
+              color: #ff6313; }
+      .talentsdetail-main .wrap .talentsdetail .talents-box {
+        width: 100%;
+        padding-top: 1.66667rem; }
+        .talentsdetail-main .wrap .talentsdetail .talents-box .talents-face {
+          float: left;
+          width: 11.91667rem;
+          height: 12.75rem; }
+          .talentsdetail-main .wrap .talentsdetail .talents-box .talents-face img {
+            width: 100%;
+            height: auto;
+            display: block; }
+        .talentsdetail-main .wrap .talentsdetail .talents-box .talents-mes {
+          float: left;
+          width: 83.16667rem;
+          margin-left: 1.41667rem; }
+          .talentsdetail-main .wrap .talentsdetail .talents-box .talents-mes ul {
+            width: 100%; }
+            .talentsdetail-main .wrap .talentsdetail .talents-box .talents-mes ul li {
+              width: 33.83333rem;
+              height: 2.16667rem;
+              line-height: 2.16667rem;
+              border-bottom: 0.08333rem dashed #d6d6d6;
+              float: left;
+              font-size: 1.33333rem;
+              margin-right: 1.66667rem; }
+              .talentsdetail-main .wrap .talentsdetail .talents-box .talents-mes ul li:nth-of-type(2n) {
+                margin-right: 0; }
+              .talentsdetail-main .wrap .talentsdetail .talents-box .talents-mes ul li i {
+                height: 100%;
+                display: block;
+                float: left;
+                width: 8.33333rem;
+                text-align: right; }
+              .talentsdetail-main .wrap .talentsdetail .talents-box .talents-mes ul li span {
+                display: block;
+                float: left; }
+      .talentsdetail-main .wrap .talentsdetail .jianlidetail {
+        width: 100%;
+        padding-top: 2.58333rem; }
+        .talentsdetail-main .wrap .talentsdetail .jianlidetail .jianlibox .jianlititle {
+          height: 2.66667rem;
+          line-height: 2.66667rem;
+          font-weight: bold;
+          background-color: #f7f7f7;
+          text-indent: 1.66667rem;
+          margin-bottom: 1.66667rem; }
+        .talentsdetail-main .wrap .talentsdetail .jianlidetail .intention ul {
+          padding-left: 1.25rem; }
+          .talentsdetail-main .wrap .talentsdetail .jianlidetail .intention ul li {
+            font-size: 1.5rem;
+            line-height: 2.5rem; }
+        .talentsdetail-main .wrap .talentsdetail .jianlidetail .experience .experience-detail {
+          padding-left: 1.25rem;
+          background-color: #f7f7f7;
+          padding-top: 1.5rem;
+          padding-bottom: 1.75rem;
+          margin-bottom: 2.75rem; }
+          .talentsdetail-main .wrap .talentsdetail .jianlidetail .experience .experience-detail .firmname {
+            font-weight: bold;
+            font-size: 1.33333rem; }
+          .talentsdetail-main .wrap .talentsdetail .jianlidetail .experience .experience-detail ul {
+            padding-top: 1.33333rem;
+            width: 29.16667rem; }
+            .talentsdetail-main .wrap .talentsdetail .jianlidetail .experience .experience-detail ul li {
+              font-size: 1.16667rem;
+              line-height: 2.5rem;
+              width: 13.33333rem;
+              float: left; }
+              .talentsdetail-main .wrap .talentsdetail .jianlidetail .experience .experience-detail ul li:nth-last-of-type(1) {
+                width: 300%; }
+        .talentsdetail-main .wrap .talentsdetail .jianlidetail .contact ul {
+          padding-left: 1.25rem; }
+          .talentsdetail-main .wrap .talentsdetail .jianlidetail .contact ul li {
+            font-size: 1.5rem;
+            line-height: 2.5rem; }
+    .talentsdetail-main .wrap button {
+      width: 16.16667rem;
+      height: 3.75rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+
+/*# sourceMappingURL=talentsdetail.css.map */
