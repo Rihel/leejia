@@ -1,0 +1,210 @@
+.btn {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
+.recruit-banner {
+  max-width: 100%;
+  height: 31.16667rem;
+  margin-top: 6rem;
+  background-image: url("../img/recruit-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  @media (min-width: 62em) and (max-width: 90em) {
+    .recruit-banner {
+      margin-top: 4.61538rem; } }
+
+.recruit-main {
+  margin-top: 3.33333rem; }
+  .recruit-main .wrap .recruit .recruit-logo-title {
+    height: 3.33333rem;
+    line-height: 3.33333rem;
+    width: 100%; }
+    .recruit-main .wrap .recruit .recruit-logo-title h2 {
+      margin-left: 1.25rem;
+      float: left;
+      position: relative;
+      font-size: 1.66667rem; }
+      .recruit-main .wrap .recruit .recruit-logo-title h2:before {
+        position: absolute;
+        left: -1.16667rem;
+        top: 80%;
+        content: '';
+        background-color: #cdab52;
+        width: 0.58333rem;
+        height: 1.5rem;
+        margin-top: -1.5rem; }
+    .recruit-main .wrap .recruit .recruit-logo-title .recruit-more {
+      float: right; }
+      .recruit-main .wrap .recruit .recruit-logo-title .recruit-more a {
+        display: block;
+        float: left;
+        margin-right: 2.5rem;
+        color: #c2941c; }
+      .recruit-main .wrap .recruit .recruit-logo-title .recruit-more span {
+        float: left;
+        color: #fb5058;
+        width: 1.33333rem;
+        height: 1.33333rem;
+        display: block;
+        text-align: center;
+        line-height: 1.41667rem;
+        margin-top: 1rem;
+        border: 0.08333rem solid #e0dee1; }
+  .recruit-main .wrap .recruit .recruit-logo-list {
+    width: 100%;
+    border: 0.08333rem solid #e0e0e0; }
+  .recruit-main .wrap .recruit .urgency {
+    width: 100%;
+    margin-top: 2rem; }
+    .recruit-main .wrap .recruit .urgency dt {
+      height: 3.5rem;
+      line-height: 3.5rem;
+      width: 100%;
+      background-color: #f1eff0; }
+      .recruit-main .wrap .recruit .urgency dt h2 {
+        float: left;
+        height: 100%;
+        width: 21rem;
+        background-color: #caaa43;
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        text-indent: 0.83333rem; }
+        .recruit-main .wrap .recruit .urgency dt h2 span {
+          width: 2.83333rem;
+          height: 2.83333rem;
+          display: block;
+          float: left;
+          background-repeat: no-repeat;
+          background-image: url("../img/recruit-icon.png");
+          background-position: -2.83333rem 0;
+          margin-left: 1.66667rem;
+          margin-top: 0.41667rem; }
+        .recruit-main .wrap .recruit .urgency dt h2 small {
+          float: left; }
+      .recruit-main .wrap .recruit .urgency dt .recruit-firm-more {
+        float: right; }
+        .recruit-main .wrap .recruit .urgency dt .recruit-firm-more a {
+          display: block;
+          float: left;
+          margin-right: 2.5rem;
+          color: #c2941c; }
+        .recruit-main .wrap .recruit .urgency dt .recruit-firm-more span {
+          float: left;
+          color: #fb5058;
+          width: 1.33333rem;
+          height: 1.33333rem;
+          display: block;
+          text-align: center;
+          line-height: 1.41667rem;
+          margin-top: 1rem;
+          border: 0.08333rem solid #e0dee1;
+          margin-right: 1.25rem; }
+    .recruit-main .wrap .recruit .urgency dd {
+      width: 100%; }
+      .recruit-main .wrap .recruit .urgency dd table {
+        width: 100%;
+        border: 0.08333rem solid #e0e0e0; }
+        .recruit-main .wrap .recruit .urgency dd table tr {
+          height: 10.83333rem;
+          width: 100%; }
+          .recruit-main .wrap .recruit .urgency dd table tr td {
+            width: 50%;
+            height: 100%;
+            padding-left: 1.75rem; }
+            .recruit-main .wrap .recruit .urgency dd table tr td .joy-detail {
+              float: left;
+              font-size: 1.33333rem; }
+              .recruit-main .wrap .recruit .urgency dd table tr td .joy-detail .joy-name {
+                padding-top: 1.25rem;
+                display: block;
+                color: #c29128;
+                font-weight: bold; }
+              .recruit-main .wrap .recruit .urgency dd table tr td .joy-detail .joy-money {
+                color: #f70a28;
+                display: inline-block;
+                padding: 1.41667rem 0; }
+              .recruit-main .wrap .recruit .urgency dd table tr td .joy-detail .xueli {
+                display: inline-block; }
+              .recruit-main .wrap .recruit .urgency dd table tr td .joy-detail a {
+                display: block; }
+            .recruit-main .wrap .recruit .urgency dd table tr td .joy-firm-logo {
+              float: right;
+              margin-top: 1rem;
+              display: block; }
+  .recruit-main .wrap .recruit .famous-enterprise {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0.08333rem solid #f1eff0; }
+    .recruit-main .wrap .recruit .famous-enterprise dt {
+      height: 3.5rem;
+      line-height: 3.5rem;
+      width: 100%;
+      background-color: #f1eff0; }
+      .recruit-main .wrap .recruit .famous-enterprise dt h2 {
+        float: left;
+        height: 100%;
+        width: 21rem;
+        background-color: #caaa43;
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        text-indent: 0.83333rem; }
+        .recruit-main .wrap .recruit .famous-enterprise dt h2 span {
+          width: 2.83333rem;
+          height: 2.83333rem;
+          display: block;
+          float: left;
+          background-repeat: no-repeat;
+          background-image: url("../img/recruit-icon.png");
+          background-position: 0 0;
+          margin-left: 1.66667rem;
+          margin-top: 0.41667rem; }
+        .recruit-main .wrap .recruit .famous-enterprise dt h2 small {
+          float: left; }
+      .recruit-main .wrap .recruit .famous-enterprise dt .recruit-firm-more {
+        float: right; }
+        .recruit-main .wrap .recruit .famous-enterprise dt .recruit-firm-more a {
+          display: block;
+          float: left;
+          margin-right: 2.5rem;
+          color: #c2941c; }
+        .recruit-main .wrap .recruit .famous-enterprise dt .recruit-firm-more span {
+          float: left;
+          color: #fb5058;
+          width: 1.33333rem;
+          height: 1.33333rem;
+          display: block;
+          text-align: center;
+          line-height: 1.41667rem;
+          margin-top: 1rem;
+          border: 0.08333rem solid #e0dee1;
+          margin-right: 1.25rem; }
+    .recruit-main .wrap .recruit .famous-enterprise dd {
+      width: 100%; }
+      .recruit-main .wrap .recruit .famous-enterprise dd .famous-list {
+        padding: 2.83333rem 2rem; }
+        .recruit-main .wrap .recruit .famous-enterprise dd .famous-list li {
+          width: 28.33333rem;
+          height: 5.25rem;
+          border: 0.08333rem dashed #dddddd;
+          padding: 1.5rem 1.16667rem;
+          font-size: 1.33333rem;
+          float: left;
+          margin-right: 1.25rem;
+          margin-bottom: 1.25rem; }
+          .recruit-main .wrap .recruit .famous-enterprise dd .famous-list li:nth-of-type(3n) {
+            margin-right: 0; }
+          .recruit-main .wrap .recruit .famous-enterprise dd .famous-list li a {
+            display: block; }
+            .recruit-main .wrap .recruit .famous-enterprise dd .famous-list li a .joy-name {
+              color: #be9322;
+              font-weight: bold; }
+            .recruit-main .wrap .recruit .famous-enterprise dd .famous-list li a .joy-money {
+              float: right;
+              color: #ee1530; }
+            .recruit-main .wrap .recruit .famous-enterprise dd .famous-list li a p:nth-of-type(2) {
+              margin: 1.25rem 0; }
+
+/*# sourceMappingURL=recruit.css.map */

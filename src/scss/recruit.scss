@@ -1,0 +1,160 @@
+@import "mixin";
+.recruit-banner{
+  @include banner('../img/recruit-banner.png')
+}
+
+.recruit-main{
+  margin-top:rem(40);
+  .wrap{
+    .recruit{
+      .recruit-logo-title{
+        @include lineheight(rem(40));
+        width: 100%;
+        h2{
+          margin-left: rem(15);
+          float: left;
+          position: relative;
+          font-size: rem(20);
+          &:before{
+            position: absolute;
+            left: rem(-14);
+            top: 80%;
+            content: '';
+            background-color: #cdab52;
+            width: rem(7);
+            height: rem(18);
+            margin-top:rem(-18);
+          }
+        }
+        .recruit-more{
+          float: right;
+          a{
+            display: block;
+            float: left;
+            margin-right:rem(30);
+            color: #c2941c;
+          }
+          span{
+            float: left;
+            color: #fb5058;
+            @include square(rem(16));
+            text-align: center;
+            line-height: rem(17);
+
+            margin-top:rem((40-16)/2);
+            border:rem(1) solid #e0dee1;
+          }
+        }
+      }
+      .recruit-logo-list{
+        width: 100%;
+        border: rem(1) solid #e0e0e0;
+      }
+      .urgency{
+        width: 100%;
+        margin-top:rem(24);
+        dt{
+          @include recuit{
+            background: {
+              image:url("../img/recruit-icon.png");
+              position: rem(-34) 0;
+            };
+          }
+        }
+        dd{
+          width: 100%;
+          table{
+            width: 100%;
+            border: rem(1) solid #e0e0e0;
+            tr{
+              height: rem(130);
+              width: 100%;
+              td{
+                width: 50%;
+                height: 100%;
+                padding-left:rem(21);
+
+                .joy-detail{
+                  float: left;
+                  font-size: rem(16);
+                  .joy-name{
+                    padding-top: rem(15);
+                    display: block;
+                    color: #c29128;
+                    font-weight: bold;
+                  }
+                  .joy-money{
+                    color: #f70a28;
+                    display: inline-block;
+                    padding: rem(17) 0;
+                  }
+                  .xueli{
+                    display: inline-block;
+                  }
+                  a{
+                    display: block;
+
+                  }
+                }
+                .joy-firm-logo{
+                  float: right;
+                  margin-top:rem(12);
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+      .famous-enterprise{
+        width: 100%;
+        margin-top:rem(24);
+        margin-bottom:rem(24);
+        @include border(#f1eff0);
+        dt{
+          @include recuit{
+            background: {
+              image:url("../img/recruit-icon.png");
+              position: 0 0;
+            };
+          }
+        }
+        dd{
+          width: 100%;
+          .famous-list{
+            padding: rem(34) rem(24);
+
+            li{
+              width: rem(368-14-14);
+              height: rem(99-18-18);
+              border: rem(1) dashed #dddddd;
+              padding: rem(18) rem(14);
+              font-size: rem(16);
+              float: left;
+              margin-right: rem(15);
+              margin-bottom:rem(15);
+              &:nth-of-type(3n){
+                margin-right: 0;
+              }
+              a{
+                display: block;
+                .joy-name{
+                  color: #be9322;
+
+                  font-weight: bold;
+                }
+                .joy-money{
+                  float: right;
+                  color: #ee1530;
+                }
+                p:nth-of-type(2){
+                  margin: rem(15) 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

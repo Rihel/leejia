@@ -138,3 +138,55 @@ $legacy-support-for-ie:true;
   @include square($radius);
   @include borderRadius($radius);
 }
+
+//recruit-logo-title
+@mixin recuit{
+  @include lineheight(rem(42));
+  width: 100%;
+  background-color: #f1eff0;
+  h2 {
+    float: left;
+    height: 100%;
+    width: rem(252);
+    background-color: #caaa43;
+    color: #FFFFFF;
+    font-size: rem(18);
+    text-indent: rem(10);
+    span {
+      @include square(rem(34));
+      float: left;
+      background: {
+        repeat: no-repeat;
+      }
+      @content;
+      margin: {
+        left: rem(20);
+        top: rem(5);
+      }
+    ;
+    }
+    small {
+      float: left;
+    }
+
+  }
+  .recruit-firm-more{
+    float: right;
+    a{
+      display: block;
+      float: left;
+      margin-right:rem(30);
+      color: #c2941c;
+    }
+    span{
+      float: left;
+      color: #fb5058;
+      @include square(rem(16));
+      text-align: center;
+      line-height: rem(17);
+      margin-top:rem((40-16)/2);
+      border:rem(1) solid #e0dee1;
+      margin-right: rem(15);
+    }
+  }
+}
