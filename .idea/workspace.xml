@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ba379ff-5f35-4bce-889e-b84c53d8868e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/register-bg.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/commom.css" afterPath="$PROJECT_DIR$/src/css/commom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/commom.css.map" afterPath="$PROJECT_DIR$/src/css/commom.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/login.css" afterPath="$PROJECT_DIR$/src/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/login.css.map" afterPath="$PROJECT_DIR$/src/css/login.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/news.css" afterPath="$PROJECT_DIR$/src/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/news.css.map" afterPath="$PROJECT_DIR$/src/css/news.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/register.css" afterPath="$PROJECT_DIR$/src/css/register.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/register.css.map" afterPath="$PROJECT_DIR$/src/css/register.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/news.html" afterPath="$PROJECT_DIR$/src/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/register.html" afterPath="$PROJECT_DIR$/src/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/login.scss" afterPath="$PROJECT_DIR$/src/scss/login.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/news.scss" afterPath="$PROJECT_DIR$/src/scss/news.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/register.scss" afterPath="$PROJECT_DIR$/src/scss/register.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/reset.scss" afterPath="$PROJECT_DIR$/src/scss/reset.scss" />
-    </list>
+    <list default="true" id="3ba379ff-5f35-4bce-889e-b84c53d8868e" name="Default" comment="" />
     <ignored path="leejia.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -230,7 +212,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="833" />
+    <option name="x" value="-29" />
+    <option name="y" value="73" />
     <option name="width" value="1234" />
     <option name="height" value="1053" />
   </component>
@@ -359,12 +342,12 @@
       <workItem from="1472266429688" duration="19610000" />
       <workItem from="1472351104162" duration="22404000" />
       <workItem from="1472395556692" duration="615000" />
-      <workItem from="1472397352358" duration="4978000" />
+      <workItem from="1472397352358" duration="5114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102098000" />
+    <option name="totallyTimeSpent" value="102234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="833" y="0" width="1234" height="1053" extended-state="0" />
+    <frame x="-29" y="73" width="1234" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26003346" sideWeight="0.44955158" order="0" side_tool="false" content_ui="combo" />
