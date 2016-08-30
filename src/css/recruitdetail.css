@@ -1,0 +1,183 @@
+.btn, .recruitdetail-main .recrudetail .recrudetail-left .joy-describe button {
+  background-color: #caaa43;
+  color: #FFFFFF;
+  border: none; }
+
+.recruitdetail-banner {
+  max-width: 100%;
+  height: 31.16667rem;
+  margin-top: 6rem;
+  background-image: url("../img/social-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  @media (min-width: 62em) and (max-width: 90em) {
+    .recruitdetail-banner {
+      margin-top: 4.61538rem; } }
+
+.recruitdetail-main {
+  padding-top: 2rem; }
+  .recruitdetail-main .recrudetail {
+    padding: 2.58333rem 0.75rem; }
+    .recruitdetail-main .recrudetail .recrudetail-left {
+      border: 0.08333rem solid #e5e5e5;
+      padding: 2rem 1.66667rem;
+      width: 71.66667rem;
+      float: left;
+      position: relative; }
+      .recruitdetail-main .recrudetail .recrudetail-left .joy-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-indent: 1.25rem;
+        margin: 2.33333rem 0;
+        height: 1.66667rem;
+        line-height: 1.66667rem;
+        position: relative; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-title:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 0.58333rem;
+          height: 1.66667rem;
+          background-color: #cfaa51; }
+      .recruitdetail-main .recrudetail .recrudetail-left .joy-name {
+        font-size: 1.33333rem; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-name h1 {
+          font-size: 2.33333rem;
+          color: #f4d07c;
+          font-weight: bold; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-name small {
+          padding: 0.91667rem 0;
+          display: block; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-name ul {
+          border-bottom: 0.08333rem solid #e5e5e5;
+          padding-bottom: 1.5rem; }
+          .recruitdetail-main .recrudetail .recrudetail-left .joy-name ul li {
+            float: left;
+            margin-right: 2rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-name ul li span {
+              color: #9e9995; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-name ul li i {
+              color: #f76b00;
+              font-weight: bold; }
+      .recruitdetail-main .recrudetail .recrudetail-left .joy-state {
+        float: right;
+        width: 23.16667rem;
+        height: 6rem;
+        position: absolute;
+        right: 0.83333rem;
+        top: -0.83333rem;
+        background-repeat: no-repeat;
+        background-image: url("../img/recruitdetail-right-bg.png");
+        background-position: 0 0; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-state ul {
+          width: 100%;
+          height: 100%; }
+          .recruitdetail-main .recrudetail .recrudetail-left .joy-state ul li {
+            float: left;
+            width: 49%;
+            margin-top: 0.83333rem;
+            text-align: center;
+            color: #FFFFFF;
+            line-height: 2.08333rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-state ul li p:nth-of-type(1) {
+              font-weight: bold; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-state ul li:nth-of-type(1) {
+              border-right: 0.08333rem dashed #FFFFFF; }
+      .recruitdetail-main .recrudetail .recrudetail-left .joy-detail {
+        padding-top: 1.83333rem; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul {
+          width: 100%; }
+          .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li {
+            width: 100%;
+            height: 2.5rem;
+            line-height: 2.5rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li:nth-of-type(1) i {
+              background-position-y: 0; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li:nth-of-type(2) i {
+              background-position-y: -1.91667rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li:nth-of-type(3) i {
+              background-position-y: -3.83333rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li:nth-of-type(4) i {
+              background-position-y: -5.75rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li i {
+              float: left;
+              display: block;
+              width: 1.91667rem;
+              height: 1.91667rem;
+              margin-top: 0.41667rem;
+              margin-right: 1.66667rem;
+              background-repeat: no-repeat;
+              background-image: url("../img/recruitdetail-icon1.png");
+              background-position-x: 0; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li b {
+              display: block;
+              float: left;
+              color: #9a9592; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-detail ul li span {
+              float: left;
+              display: block;
+              width: 12.5rem; }
+      .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl {
+        margin-top: 2.33333rem;
+        color: #686262;
+        font-size: 1.16667rem; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd {
+          margin-top: 0.83333rem;
+          height: 1.83333rem;
+          line-height: 1.83333rem;
+          padding-bottom: 2.33333rem; }
+          .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd p {
+            float: left;
+            margin-right: 1.66667rem; }
+          .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd i {
+            display: block;
+            float: left;
+            margin-right: 0.66667rem;
+            width: 1.33333rem;
+            height: 1.33333rem;
+            margin-top: 0.25rem;
+            background-image: url("../img/recruitdetail-icon2.png");
+            background-repeat: no-repeat;
+            background-position-y: 0; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd i:nth-of-type(1) {
+              background-position-x: 0rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd i:nth-of-type(2) {
+              background-position-x: -1.33333rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd i:nth-of-type(3) {
+              background-position-x: -2.66667rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd i:nth-of-type(4) {
+              background-position-x: -4rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd i:nth-of-type(5) {
+              background-position-x: -5.33333rem; }
+            .recruitdetail-main .recrudetail .recrudetail-left .joy-describe dl dd i:nth-of-type(6) {
+              background-position-x: -6.66667rem; }
+      .recruitdetail-main .recrudetail .recrudetail-left .joy-describe button {
+        width: 14.16667rem;
+        height: 4.16667rem;
+        -webkit-border-radius: 0.41667rem;
+        -moz-border-radius: 0.41667rem;
+        border-radius: 0.41667rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        float: left; }
+      .recruitdetail-main .recrudetail .recrudetail-left .joy-describe ul {
+        float: left;
+        margin-left: 4.16667rem; }
+        .recruitdetail-main .recrudetail .recrudetail-left .joy-describe ul li {
+          float: left;
+          margin-left: 0.83333rem;
+          height: 4.16667rem;
+          line-height: 4.16667rem;
+          color: #999ea2; }
+          .recruitdetail-main .recrudetail .recrudetail-left .joy-describe ul li:before {
+            padding-right: 0.83333rem;
+            font-size: 1.33333rem; }
+    .recruitdetail-main .recrudetail .recrudetail-right {
+      width: 16.41667rem;
+      float: right;
+      border: 0.08333rem solid #e5e5e5;
+      padding: 1.66667rem 1.83333rem; }
+
+/*# sourceMappingURL=recruitdetail.css.map */
