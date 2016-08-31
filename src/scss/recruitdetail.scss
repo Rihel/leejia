@@ -1,6 +1,6 @@
 @import "mixin";
 .recruitdetail-banner{
-  @include banner('../img/social-banner.png');
+  @include banner('../img/recruit-banner.png');
 }
 .recruitdetail-main{
   padding-top:rem(24);
@@ -147,10 +147,10 @@
           color: #686262;
           font-size: rem(14);
           dd{
-            margin-top:rem(10);
+            margin-top:rem(5);
             height: rem(22);
             line-height:rem(22);
-            padding-bottom:rem(28);
+            padding-bottom:rem(10);
             p{
               float: left;
               margin-right:rem(20);
@@ -199,12 +199,71 @@
           }
         }
       }
+      .joy-relation{
+        .joy-relation-cont{
+          padding-left:rem(62);
+
+          p{
+            float: left;
+            margin-right:rem(22);
+            color: #62b6db;
+            a{
+              display: inline-block;
+              padding: rem(10);
+            }
+            .res{
+              text-decoration: underline;
+              color: #195dcc;
+            }
+          }
+
+        }
+      }
+      .joy-intro{
+        p{
+          line-height: rem(20);
+          font-size: rem(16);
+        }
+      }
+    }
+    .recrudetail-bottom{
+      @include border(#e5e5e5);
+      padding: rem(24) rem(20);
+      width: rem(900-40);
+      float: left;
+      margin-top:rem(20);
     }
     .recrudetail-right{
-      width: rem(237-40);
+      width: rem(237-40+24);
       float: right;
       @include border(#e5e5e5);
-      padding: rem(20) rem(22);
+      padding: rem(20) rem(10);
+      .jituan{
+        width: rem(191);
+        height: rem(81);
+        @include blockCenter;
+      }
+      .jituanname{
+        font-size: rem(16);
+        color: #c2941c;
+        text-align: center;
+        margin-top:rem(11);
+      }
+      .renzheng{
+        width: 100%;
+        margin-top:rem(12);
+        li{
+          color: #caaa43;
+          @include lineheight(rem(18));
+          margin-top:rem(12);
+          span{
+            color: #b7afad;
+          }
+          &:nth-of-type(1){
+            background: url("../img/icon.png") center 0 no-repeat;
+          }
+        }
+      }
     }
   }
 }
