@@ -1,4 +1,5 @@
 @import "mixin";
+$border :#dddddd;
 .recruitdetail-banner{
   @include banner('../img/recruit-banner.png');
 }
@@ -232,12 +233,45 @@
       width: rem(900-40);
       float: left;
       margin-top:rem(20);
+      h2{
+        font-size: rem(18);
+        @include lineheight(rem(30));
+        border-bottom:rem(1) solid $border;
+      }
+      ul{
+        li{
+          height: rem(70);
+          border-bottom:rem(1) solid $border;
+          dl{
+            dt{
+              color: #d1a755;
+              padding:rem(14) 0;
+            }
+            dd{
+              float: left;
+              padding: 0 rem(10);
+              border-right:rem(1) solid $border;
+              &:nth-last-of-type(1){
+                border: none;
+              }
+              &:nth-of-type(1){
+                padding-left:0;
+              }
+              span{
+                color: red;
+              }
+            }
+          }
+        }
+      }
     }
     .recrudetail-right{
       width: rem(237-40+24);
       float: right;
       @include border(#e5e5e5);
+      border-bottom:none;
       padding: rem(20) rem(10);
+      padding-bottom:0;
       .jituan{
         width: rem(191);
         height: rem(81);
@@ -261,6 +295,55 @@
           }
           &:nth-of-type(1){
             background: url("../img/icon.png") center 0 no-repeat;
+          }
+        }
+      }
+      .zixun{
+        h2{
+          padding: rem(13) 0;
+          font-size: rem(18);
+        }
+        textarea{
+          width: rem(210);
+          height: rem(100);
+          @include border($border);
+        }
+        button{
+          width:rem(80);
+          height:rem(28);
+          margin-top:rem(20);
+        }
+      }
+      .xiangsi{
+        width: 110%;
+        margin-top:rem(40);
+        margin-left:rem(-10);
+        text-indent: rem(10);
+        dt{
+          margin-bottom:rem(12);
+          font-size: rem(18);
+          border-bottom:rem(1) solid $border;
+        }
+        dd{
+          border-bottom:rem(1) solid $border;
+          padding: rem(14) 0;
+
+          p{
+            &:nth-of-type(1){
+              color: #dcb558;
+              font-size: rem(16);
+            }
+            &:nth-of-type(2){
+              padding: rem(10) 0;
+            }
+            &:nth-of-type(3){
+              span{
+                color: red;
+                font-size: rem(16);
+                font-weight: bold;
+              }
+            }
+
           }
         }
       }
