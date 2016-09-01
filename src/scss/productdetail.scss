@@ -57,6 +57,14 @@ $border :#dddddd;
         .xiangce{
           width: rem(427);
           float: left;
+          #preview{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            img{
+              @include scale(1.5)
+            }
+          }
         }
         .caozuo{
           float: left;
@@ -79,6 +87,7 @@ $border :#dddddd;
             }
           }
           .detail{
+            padding-top: rem(20);
             li{
               @include lineheight(rem(30));
               width: rem(380);
@@ -168,7 +177,7 @@ $border :#dddddd;
         ul{
           font-size: rem(12);
           position: absolute;
-          right: rem(194);
+          right: rem(25);
           top: 0;
           float: right;
           li{
