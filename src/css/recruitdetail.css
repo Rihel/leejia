@@ -195,11 +195,34 @@
       width: 71.66667rem;
       float: left;
       margin-top: 1.66667rem; }
+      .recruitdetail-main .recrudetail .recrudetail-bottom h2 {
+        font-size: 1.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        border-bottom: 0.08333rem solid #dddddd; }
+      .recruitdetail-main .recrudetail .recrudetail-bottom ul li {
+        height: 5.83333rem;
+        border-bottom: 0.08333rem solid #dddddd; }
+        .recruitdetail-main .recrudetail .recrudetail-bottom ul li dl dt {
+          color: #d1a755;
+          padding: 1.16667rem 0; }
+        .recruitdetail-main .recrudetail .recrudetail-bottom ul li dl dd {
+          float: left;
+          padding: 0 0.83333rem;
+          border-right: 0.08333rem solid #dddddd; }
+          .recruitdetail-main .recrudetail .recrudetail-bottom ul li dl dd:nth-last-of-type(1) {
+            border: none; }
+          .recruitdetail-main .recrudetail .recrudetail-bottom ul li dl dd:nth-of-type(1) {
+            padding-left: 0; }
+          .recruitdetail-main .recrudetail .recrudetail-bottom ul li dl dd span {
+            color: red; }
     .recruitdetail-main .recrudetail .recrudetail-right {
       width: 18.41667rem;
       float: right;
       border: 0.08333rem solid #e5e5e5;
-      padding: 1.66667rem 0.83333rem; }
+      border-bottom: none;
+      padding: 1.66667rem 0.83333rem;
+      padding-bottom: 0; }
       .recruitdetail-main .recrudetail .recrudetail-right .jituan {
         width: 15.91667rem;
         height: 6.75rem;
@@ -222,5 +245,37 @@
             color: #b7afad; }
           .recruitdetail-main .recrudetail .recrudetail-right .renzheng li:nth-of-type(1) {
             background: url("../img/icon.png") center 0 no-repeat; }
+      .recruitdetail-main .recrudetail .recrudetail-right .zixun h2 {
+        padding: 1.08333rem 0;
+        font-size: 1.5rem; }
+      .recruitdetail-main .recrudetail .recrudetail-right .zixun textarea {
+        width: 17.5rem;
+        height: 8.33333rem;
+        border: 0.08333rem solid #dddddd; }
+      .recruitdetail-main .recrudetail .recrudetail-right .zixun button {
+        width: 6.66667rem;
+        height: 2.33333rem;
+        margin-top: 1.66667rem; }
+      .recruitdetail-main .recrudetail .recrudetail-right .xiangsi {
+        width: 110%;
+        margin-top: 3.33333rem;
+        margin-left: -0.83333rem;
+        text-indent: 0.83333rem; }
+        .recruitdetail-main .recrudetail .recrudetail-right .xiangsi dt {
+          margin-bottom: 1rem;
+          font-size: 1.5rem;
+          border-bottom: 0.08333rem solid #dddddd; }
+        .recruitdetail-main .recrudetail .recrudetail-right .xiangsi dd {
+          border-bottom: 0.08333rem solid #dddddd;
+          padding: 1.16667rem 0; }
+          .recruitdetail-main .recrudetail .recrudetail-right .xiangsi dd p:nth-of-type(1) {
+            color: #dcb558;
+            font-size: 1.33333rem; }
+          .recruitdetail-main .recrudetail .recrudetail-right .xiangsi dd p:nth-of-type(2) {
+            padding: 0.83333rem 0; }
+          .recruitdetail-main .recrudetail .recrudetail-right .xiangsi dd p:nth-of-type(3) span {
+            color: red;
+            font-size: 1.33333rem;
+            font-weight: bold; }
 
 /*# sourceMappingURL=recruitdetail.css.map */

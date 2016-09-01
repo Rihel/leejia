@@ -1,0 +1,39 @@
+@import "mixin";
+.productdetail-main{
+  width: 100%;
+  margin-top:rem(72);
+  .wrap{
+    width: rem(1171);
+    .brand{
+      border: none;
+      .buttons{
+        width: rem(50);
+        float: right;
+        margin-top:rem((59-20)/2);
+        span{
+          display: block;
+          @include ball(rem(20));
+          background-color: #000;
+          text-align: center;
+          line-height:rem(20);
+          font-weight: bold;
+          font-size: rem(18);
+          color: #FFFFFF;
+          float: right;
+        }
+      }
+    }
+    @include list;
+    .list-wrap{
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+
+      .list{
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}
