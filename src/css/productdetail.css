@@ -109,5 +109,112 @@
         position: absolute;
         left: 0;
         top: 0; }
+        .productdetail-main .wrap .list-wrap .list li {
+          -webkit-border-radius: 0 0 5px #999999;
+          -moz-border-radius: 0 0 5px #999999;
+          border-radius: 0 0 5px #999999; }
+    .productdetail-main .wrap .productdetail .productdetail-title {
+      height: 5rem;
+      line-height: 5rem;
+      font-size: 1.66667rem;
+      background-color: #eeeeee;
+      text-indent: 2rem;
+      margin-top: 3.66667rem;
+      margin-bottom: 1.66667rem; }
+      .productdetail-main .wrap .productdetail .productdetail-title span {
+        color: #df1d25;
+        font-size: 1.33333rem; }
+    .productdetail-main .wrap .productdetail .right-extra {
+      width: 100%; }
+      .productdetail-main .wrap .productdetail .right-extra .xiangce {
+        width: 35.58333rem;
+        float: left; }
+      .productdetail-main .wrap .productdetail .right-extra .caozuo {
+        float: left;
+        padding-left: 2rem; }
+        .productdetail-main .wrap .productdetail .right-extra .caozuo h2 {
+          font-size: 1.66667rem;
+          font-weight: bold;
+          margin-bottom: 1.66667rem; }
+        .productdetail-main .wrap .productdetail .right-extra .caozuo small {
+          font-size: 1.33333rem;
+          font-weight: bold;
+          margin-bottom: 0.83333rem;
+          display: block; }
+        .productdetail-main .wrap .productdetail .right-extra .caozuo p {
+          height: 2.33333rem;
+          line-height: 2.33333rem; }
+          .productdetail-main .wrap .productdetail .right-extra .caozuo p:nth-of-type(3) {
+            border-bottom: 0.08333rem solid #dddddd; }
+        .productdetail-main .wrap .productdetail .right-extra .caozuo .detail li {
+          height: 2.5rem;
+          line-height: 2.5rem;
+          width: 31.66667rem; }
+          .productdetail-main .wrap .productdetail .right-extra .caozuo .detail li span, .productdetail-main .wrap .productdetail .right-extra .caozuo .detail li i, .productdetail-main .wrap .productdetail .right-extra .caozuo .detail li input {
+            display: block;
+            float: left; }
+          .productdetail-main .wrap .productdetail .right-extra .caozuo .detail li b {
+            padding-left: 5.83333rem; }
+        .productdetail-main .wrap .productdetail .right-extra .caozuo .detail .money i {
+          font-size: 2.5rem;
+          color: red; }
+        .productdetail-main .wrap .productdetail .right-extra .caozuo .detail .detail-input div {
+          height: 1.66667rem;
+          line-height: 1.66667rem;
+          width: 8.33333rem;
+          float: left;
+          margin-top: 0.41667rem; }
+          .productdetail-main .wrap .productdetail .right-extra .caozuo .detail .detail-input div .num {
+            height: 100%;
+            border: 0.08333rem solid #dddddd;
+            text-align: center;
+            line-height: 1.66667rem; }
+          .productdetail-main .wrap .productdetail .right-extra .caozuo .detail .detail-input div .numtext {
+            width: 1.66667rem;
+            text-align: center; }
+        .productdetail-main .wrap .productdetail .right-extra .caozuo .detail .gobuy {
+          height: 3.33333rem;
+          padding-top: 1.66667rem; }
+          .productdetail-main .wrap .productdetail .right-extra .caozuo .detail .gobuy button {
+            width: 13rem;
+            height: 100%;
+            border: none;
+            color: #FFFFFF;
+            background-color: #b22420; }
+    .productdetail-main .wrap .productdetail .fuwu {
+      height: 6rem;
+      margin: 1.66667rem 0; }
+      .productdetail-main .wrap .productdetail .fuwu ul {
+        height: 100%;
+        border-bottom: 0.08333rem solid #dddddd;
+        border-top: 0.08333rem solid #dddddd; }
+        .productdetail-main .wrap .productdetail .fuwu ul li {
+          float: left;
+          height: 100%;
+          width: 6.66667rem;
+          text-align: center;
+          margin: 0 1.66667rem; }
+          .productdetail-main .wrap .productdetail .fuwu ul li div {
+            font-size: 2.5rem;
+            height: 4.16667rem;
+            line-height: 4.16667rem;
+            width: 100%; }
+    .productdetail-main .wrap .productdetail .recommend-shop .h2 {
+      font-size: 1.66667rem;
+      height: 4rem;
+      line-height: 4rem; }
+    .productdetail-main .wrap .productdetail .recommend-shop .product-list li {
+      padding-left: 0; }
+    .productdetail-main .wrap .productdetail .titlt {
+      position: relative; }
+      .productdetail-main .wrap .productdetail .titlt ul {
+        font-size: 1rem;
+        position: absolute;
+        right: 16.16667rem;
+        top: 0;
+        float: right; }
+        .productdetail-main .wrap .productdetail .titlt ul li:before {
+          color: #caaa43;
+          padding-right: 0.41667rem; }
 
 /*# sourceMappingURL=productdetail.css.map */
