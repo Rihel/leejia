@@ -1,4 +1,8 @@
 @import "mixin";
+<<<<<<< HEAD
+=======
+$border :#dddddd;
+>>>>>>> 9ab75a77104b49fbd6c8b60ce49ef97b508b70f6
 .productdetail-main{
   width: 100%;
   margin-top:rem(72);
@@ -33,7 +37,166 @@
         position: absolute;
         left: 0;
         top: 0;
+<<<<<<< HEAD
       }
     }
+=======
+        li{
+          @include borderRadius(0 0 5px #999999)
+        }
+      }
+    }
+    .productdetail{
+      .productdetail-title{
+        @include lineheight(rem(60));
+        font-size: rem(20);
+        background-color: #eeeeee;
+        text-indent: rem(24);
+        margin-top:rem(44);
+        margin-bottom:rem(20);
+        span{
+          color: #df1d25;
+          font-size: rem(16);
+        }
+      }
+      .right-extra{
+        width: 100%;
+        .xiangce{
+          width: rem(427);
+          float: left;
+          #preview{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            img{
+              @include scale(1.5)
+            }
+          }
+        }
+        .caozuo{
+          float: left;
+          padding-left:rem(24);
+          h2{
+            font-size: rem(20);
+            font-weight: bold;
+            margin-bottom:rem(20);
+          }
+          small{
+            font-size: rem(16);
+            font-weight: bold;
+            margin-bottom:rem(10);
+            display: block;
+          }
+          p{
+            @include lineheight(rem(28));
+            &:nth-of-type(3){
+              border-bottom:rem(1) solid $border;
+            }
+          }
+          .detail{
+            padding-top: rem(20);
+            li{
+              @include lineheight(rem(30));
+              width: rem(380);
+              span,i,input{
+                display: block;
+                float: left;
+              }
+              b{
+                padding-left:rem(70);
+              }
+            }
+            .money{
+              i{
+                font-size: rem(30);
+                color: red;
+              }
+            }
+            .detail-input{
+
+              div{
+                @include lineheight(rem(20));
+                width: rem(100);
+                float: left;
+                margin-top:rem(5);
+                .num{
+                  height: 100%;
+                  @include border($border);
+                  text-align: center;
+                  line-height:rem(20);
+                }
+                .numtext{
+                  width: rem(20);
+                  text-align: center;
+                }
+              }
+            }
+            .gobuy{
+              height: rem(40);
+              padding-top:rem(20);
+              button{
+                width: rem(156);
+                height: 100%;
+                border:none;
+                color: #FFFFFF;
+                background-color: #b22420;
+              }
+            }
+          }
+        }
+
+      }
+      .fuwu{
+        height: rem(72);
+        margin:rem(20) 0;
+        ul{
+          height: 100%;
+          border-bottom:rem(1) solid $border;
+          border-top:rem(1) solid $border;
+          li{
+            float: left;
+            height: 100%;
+            width: rem(80);
+            text-align: center;
+            margin: 0 rem(20);
+            div{
+              font-size: rem(30);
+              @include lineheight(rem(50));
+              width: 100%;
+
+            }
+          }
+        }
+      }
+      .recommend-shop{
+        .h2{
+          font-size: rem(20);
+          @include lineheight(rem(48))
+        }
+        .product-list{
+          li{
+            padding-left:0;
+          }
+        }
+      }
+      .titlt{
+        position: relative;
+        ul{
+          font-size: rem(12);
+          position: absolute;
+          right: rem(25);
+          top: 0;
+          float: right;
+          li{
+            &:before{
+              color: #caaa43;
+              padding-right:rem(5);
+            }
+          }
+        }
+      }
+    }
+
+>>>>>>> 9ab75a77104b49fbd6c8b60ce49ef97b508b70f6
   }
 }
