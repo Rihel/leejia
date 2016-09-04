@@ -1,8 +1,8 @@
 @import "mixin";
-<<<<<<< HEAD
-=======
+
+
 $border :#dddddd;
->>>>>>> 9ab75a77104b49fbd6c8b60ce49ef97b508b70f6
+
 .productdetail-main{
   width: 100%;
   margin-top:rem(72);
@@ -17,7 +17,7 @@ $border :#dddddd;
         span{
           display: block;
           @include ball(rem(20));
-          background-color: #000;
+          background-color: #caaa43;
           text-align: center;
           line-height:rem(20);
           font-weight: bold;
@@ -37,15 +37,11 @@ $border :#dddddd;
         position: absolute;
         left: 0;
         top: 0;
-<<<<<<< HEAD
-      }
-    }
-=======
         li{
           @include borderRadius(0 0 5px #999999)
         }
       }
-    }
+     }
     .productdetail{
       .productdetail-title{
         @include lineheight(rem(60));
@@ -76,6 +72,8 @@ $border :#dddddd;
         .caozuo{
           float: left;
           padding-left:rem(24);
+          position: relative;
+          width: rem(404);
           h2{
             font-size: rem(20);
             font-weight: bold;
@@ -143,12 +141,165 @@ $border :#dddddd;
               }
             }
           }
+          .erweima{
+            position: absolute;
+            bottom: rem(50);
+            right: 0;
+            width: rem(118);
+            height: rem(140);
+            p{
+              text-align: center;
+            }
+          }
         }
+        .cp_right2{
+          width: rem(220);
+          border: 1px solid #ddd;
 
+          padding: rem(10);
+          margin-right: rem(10);
+          color: #333;
+          float: right;
+          .productdetail-logo{
+            border-bottom: 1px dotted #ddd;
+            padding-bottom: 5px;
+          }
+          .seller-infor{
+            position: relative;
+            padding: 15px 9px;
+            line-height: 20px;
+            font-size: 0;
+            .name{
+              display: inline-block;
+              width: 126px;
+              height: 20px;
+              color: #005aa0;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              vertical-align: middle;
+              font-size: 12px;
+            }
+            .u-jd{
+              display: inline-block;
+              width: 54px;
+              height: 18px;
+              line-height: 18px;
+              text-align: center;
+              font-size: 12px;
+              border-radius: 3px;
+              font-family: simsun;
+              color: #fff;
+              background: #e4393c;
+              font-style: normal;
+            }
+          }
+          .seller-pop-box{
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            .J-pop-score{
+              .item{
+                display: block;
+                padding-left:9px;
+                padding-bottom:5px;
+              }
+              .pop-shop-detail{
+
+                .item{
+                  padding: 0 3px 0 69px;
+                  margin-bottom: 5px;
+                  line-height: 20px;
+                  text-indent: -60px;
+                  font-family: \5B8B\4F53;
+                }
+                .label{
+                  color: #999;
+                }
+                .text{
+                  color: #999;
+                }
+              }
+            }
+          }
+          .customer-service{
+            padding-left: 9px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            line-height: 24px;
+            dt{
+              width: 60px;
+              height: 24px;
+              line-height: 24px;
+              float: left;
+              display: none;
+            }
+            dd{
+              float: left;
+              width: 187px;
+              .item{
+                width: 86px;
+                height: 25px;
+                margin-right: 4px;
+                float: left;
+                overflow: hidden;
+                .jd-im{
+                  display: inline-block;
+                  width: 59px;
+                  height: 24px;
+                  line-height: 24px;
+                  padding-left: 27px;
+                  background: url('../img/productdetail-icon.gif') no-repeat;
+                  b{
+                    font-weight: 400;
+                    color: #fff;
+                  }
+                }
+              }
+            }
+          }
+          .pop-shop-enter{
+            height: 24px;
+            padding-left: 9px;
+            padding-bottom: 20px;
+            .btn-gray{
+              padding: 0 12px;
+              margin-left: 5px;
+            }
+          }
+          .jd-service{
+            width: 210px;
+            margin-right: -23px;
+            zoom: 1;
+            overflow: hidden;
+            padding: 0 0 10px 9px;
+            dt{
+              clear: both;
+              padding-bottom: 10px;
+            }
+            dd{
+              width: 95px;
+              height: 16px;
+              float: left;
+              padding: 0 10px 10px 0;
+              .jd-support-ico{
+                display: inline-block;
+                height: 16px;
+                line-height: 16px;
+                _line-height: 17px;
+                padding-left: 16px;
+                padding-right: 2px;
+                overflow: hidden;
+                background-color: #f2f4ff;
+                color: #6a77b6;
+              }
+            }
+          }
+        }
       }
       .fuwu{
         height: rem(72);
         margin:rem(20) 0;
+        float: left;
+        width: 100%;
         ul{
           height: 100%;
           border-bottom:rem(1) solid $border;
@@ -169,18 +320,19 @@ $border :#dddddd;
         }
       }
       .recommend-shop{
+        float: left;
         .h2{
           font-size: rem(20);
           @include lineheight(rem(48))
         }
         .product-list{
-          li{
-            padding-left:0;
-          }
+
         }
       }
       .titlt{
         position: relative;
+        float: left;
+        width: 100%;
         ul{
           font-size: rem(12);
           position: absolute;
@@ -196,7 +348,5 @@ $border :#dddddd;
         }
       }
     }
-
->>>>>>> 9ab75a77104b49fbd6c8b60ce49ef97b508b70f6
   }
 }
