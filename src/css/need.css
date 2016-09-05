@@ -16,21 +16,32 @@
       margin-top: 4.61538rem; } }
 
 .need-main {
-  padding-top: 13.83333rem;
+  padding-top: 6.66667rem;
   padding-bottom: 13.83333rem; }
   .need-main .wrap .need {
     width: 58.33333rem;
     margin-left: auto;
     margin-right: auto; }
     .need-main .wrap .need .need-item {
-      margin-bottom: 1.66667rem; }
+      margin-top: 1.66667rem;
+      *zoom: 1; }
+      .need-main .wrap .need .need-item:before, .need-main .wrap .need .need-item:after {
+        content: "";
+        display: table; }
+      .need-main .wrap .need .need-item:after {
+        clear: both;
+        overflow: hidden; }
       .need-main .wrap .need .need-item label {
         font-size: 1.66667rem;
         display: inline-block;
-        float: left; }
+        float: left;
+        width: 8.33333rem; }
         .need-main .wrap .need .need-item label:before {
           content: '*';
           color: red; }
+      .need-main .wrap .need .need-item p {
+        font-size: 1.16667rem;
+        margin-left: 8.33333rem; }
       .need-main .wrap .need .need-item select {
         width: 18.66667rem;
         height: 3.33333rem;
@@ -42,6 +53,11 @@
         height: 17.16667rem;
         border: 0.08333rem solid #a8a8a8;
         float: left; }
+      .need-main .wrap .need .need-item input {
+        border: 0.08333rem solid #a8a8a8;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        width: 18.66667rem; }
     .need-main .wrap .need .fujian {
       line-height: 3.16667rem;
       *zoom: 1;

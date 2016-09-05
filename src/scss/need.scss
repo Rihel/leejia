@@ -4,14 +4,15 @@
 }
 
 .need-main{
-  padding-top:rem(166);
+  padding-top:rem(80);
   padding-bottom:rem(166);
   .wrap{
     .need{
       width:rem(700);
       @include blockCenter;
       .need-item{
-        margin-bottom: rem(20);
+        margin-top: rem(20);
+        @include clearfix;
         label{
           font-size: rem(20);
           display: inline-block;
@@ -20,6 +21,11 @@
             color: red;
           }
           float: left;
+          width: rem(100);
+        }
+        p{
+          font-size: rem(14);
+          margin-left:rem(100);
         }
         select{
           width: rem(224);
@@ -33,6 +39,12 @@
           height: rem(206);
           @include border(#a8a8a8);
           float: left;
+        }
+        input{
+          @include border(#a8a8a8);
+          height:rem(30);
+          line-height:rem(30);
+          width: rem(224);
         }
       }
       .fujian{
